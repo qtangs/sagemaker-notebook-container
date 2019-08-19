@@ -9,6 +9,10 @@ including installed software and libraries, file structure and permissions, envi
   * [Using `docker`](#using-docker)
   * [Using `docker-compose`](#using-docker-compose)
   * [Accessing Jupyter Notebook](#accessing-jupyter-notebook)
+* [Optional additions](#optional-additions)
+  * [Docker CLI](#docker-cli)
+  * [Git integration](#git-integration)
+* [Sample scripts](#sample-scripts)
 
 
 ## Background
@@ -22,7 +26,7 @@ The replicated features include full Jupyter Notebook and Lab server, multiple k
 
 The AWS-hosted instance and the local container aren't mutually exclusive and should be used together to enhance the data science experience.
 
-A detailed write-up on the rationale behind this container can be found on [Medium] (link to be provided).
+A detailed write-up on the rationale behind this container can be found on [Medium] (link to be updated).
 
 #### Why Docker image?
 The most important aim is to achieve a repeatable setup that can be replicated in any laptop or server.
@@ -90,7 +94,7 @@ docker run -t --name=%CONTAINER_NAME% ^
            -v %USERPROFILE%/.aws:%WORKDDIR%/.aws:ro ^
            %IMAGE_NAME%
 ```
-*Replace `default-api` with the desired profile name from your own `~/.aws/credentials`*
+*(Replace `default-api` with the appropriate profile name from your own `~/.aws/credentials`)*
 
 #### Using `docker-compose`
 If you have [Docker Compose](https://docs.docker.com/compose/install/) (already included in [Docker Desktop](https://docs.docker.com/install/#supported-platforms) for Windows and Mac),
@@ -111,6 +115,8 @@ services:
       - ~/.aws:/home/ec2-user/.aws:ro                    # For AWS Credentials
 ```
 *(For Windows, replace `~` with `%USERPROFILE%`)*
+
+*(Replace `default-api` with the appropriate profile name from your own `~/.aws/credentials`)*
 
 With that, you can simply run this each time:
 ```bash
@@ -137,3 +143,40 @@ You should see the following output, simply click on the `http://127.0.0.1:8888/
 [I 03:10:13.373 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
+## Optional additions
+
+#### Docker CLI
+Many SageMaker examples use docker to build custom images for training.
+
+Instead of installing a full Docker on Docker, which is a complex operation, these images make use of the host's Docker Engine instead. 
+
+To achieve that, the Docker CLI is already installed on the base image and the Docker socket of the host machine is used to connect the host's Docker Engine. 
+
+This is achieved by including  when running the container.
+
+```bash
+-v /var/run/docker.sock:/var/run/docker.sock:ro
+```
+
+*(For Windows, update the mount to: `-v //var/run/docker.sock:/var/run/docker.sock:ro`)*
+
+#### Git Integration
+Git is installed on the base image to allow git access directly from the container. 
+
+Furthermore, the [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) extension is installed on Jupyter Lab for quick GUI interaction with Git.
+
+If you use connect to Git repository using SSH, then you need to mount the `.ssh` folder:
+```bash
+-v ~/.ssh:/home/ec2-user/.ssh:ro
+```
+
+*(For Windows, replace `~` with `%USERPROFILE%`)*
+
+
+## Sample scripts
+Following sample scripts have been provided to show an example of running a container using `qtangs/sagemaker-notebook:python3` image:
+1. `run-python3-container.sh`
+2. `docker-compose.yml`, which works with a simple command:
+```bash
+docker-compose up sagemaker-notebook-container
+```
