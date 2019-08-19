@@ -26,7 +26,7 @@ The replicated features include full Jupyter Notebook and Lab server, multiple k
 
 The AWS-hosted instance and the local container aren't mutually exclusive and should be used together to enhance the data science experience.
 
-A detailed write-up on the rationale behind this container can be found on [Medium] (link to be updated).
+A detailed write-up on the rationale behind this container can be found on [Medium](https://towardsdatascience.com/run-amazon-sagemaker-notebook-locally-with-docker-container-8dcc36d8524a).
 
 #### Why Docker image?
 The most important aim is to achieve a repeatable setup that can be replicated in any laptop or server.
