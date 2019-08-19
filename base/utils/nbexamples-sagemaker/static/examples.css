@@ -1,0 +1,137 @@
+#examples .panel-group .panel {
+    margin-top: 3px;
+    margin-bottom: 1em;
+}
+
+#examples .panel-group .panel .panel-heading {
+    background-color: #eee;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    line-height: 22px;
+}
+
+#examples .panel-group .panel .panel-heading a:focus, a:hover {
+    text-decoration: none;
+}
+
+#examples .panel-group .panel .panel-body {
+    padding: 0;
+}
+
+#examples .panel-group .panel .panel-body .list_container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+#examples .panel-group .panel .panel-body .list_container .list_item {
+    border-bottom: 1px solid #ddd;
+}
+
+#examples .panel-group .panel .panel-body .list_container .list_item:last-child {
+    border-bottom: 0px;
+}
+
+#examples .example-notebooks .list_item {
+    background-color: inherit !important;
+}
+
+#examples .example-notebooks .list_item:hover {
+    background-color: #ddd !important;
+}
+
+#examples .example-notebooks .list_item:first-child:hover {
+    background-color: inherit !important;
+}
+
+#examples .list_item {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    line-height: 22px;
+}
+
+#examples .list_item > div {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#examples .item_status {
+    text-align: right;
+}
+
+#examples .item_summary {
+    color: #bbb;
+}
+
+#examples .item_attribution {
+    color: #bbb;
+    margin-left: 10px;
+}
+
+#examples .item_status .btn {
+    min-width: 13ex;
+}
+
+.modal-dialog .modal-body .control-label {
+    padding-right: 1em;
+}
+
+#validation-message p {
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+#validation-message pre {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.right-indent {
+    padding-right: 1em;
+}
+
+.panel-heading.collapsed .fa-chevron-down,
+.panel-heading .fa-chevron-right {
+  display: none;
+}
+
+.panel-heading.collapsed .fa-chevron-right,
+.panel-heading .fa-chevron-down {
+  display: inline-block;
+}
+
+i.fa {
+  cursor: pointer;
+}
+
+.collapsed ~ .panel-body {
+  padding: 0;
+}
+
+.btn-info.aws-custom {
+    background-color: #fff;
+    border-color: #545b64;
+    color: #545b64;
+    margin-right: 10px;
+}
+
+.btn-info.aws-custom:hover {
+    background-color: #fafafa;
+}
+
+.btn-success.aws-custom, .btn-primary.aws-custom {
+    background-color: #ec7211;
+    border-color: #ec7211;
+}
+
+.btn-success.aws-custom:hover, .btn-primary.aws-custom:hover {
+    background-color: #eb5f07;
+    border-color: #eb5f07;
+}

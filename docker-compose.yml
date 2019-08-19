@@ -1,0 +1,28 @@
+version: "3"
+services:
+  sagemaker-notebook-base:
+    build:
+      context: base
+      dockerfile: Dockerfile
+      args:
+        - UBUNTU_VERSION=18.04
+        - MINICONDA_VERSION=4.5.12
+        - CONDA_VERSION=4.5.12
+        - DOCKER_VERSION=19.03.1
+    image: qtangs/sagemaker-notebook-base:latest
+
+  sagemaker-notebook-container:
+    build:
+      context: python3
+      dockerfile: Dockerfile
+    image: qtangs/sagemaker-notebook:python3
+    container_name: sagemaker-notebook-container
+    ports:
+      - 8888:8888
+    environment:
+      AWS_PROFILE: "default-api"
+    volumes:
+      - ~/.aws:/home/ec2-user/.aws:ro                    # For AWS Credentials
+      - ~/.ssh:/home/ec2-user/.ssh:ro                    # For Git Credentials
+      - /var/run/docker.sock:/var/run/docker.sock:ro     # For Docker CLI
+      - /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker    # For saving work in a host directory
