@@ -70,7 +70,7 @@ The simplest way to start the `sagemaker-notebook-container` is to use `docker r
 **Unix:**
 ```bash
 export CONTAINER_NAME=sagemaker-notebook-container
-export IMAGE_NAME=qtangs/sagemaker-notebook:tensorflow_p36
+export IMAGE_NAME=qtangs/sagemaker-notebook:tensorflow-p36
 export WORKDDIR=/home/ec2-user
 export AWS_PROFILE=default-api
 
@@ -84,7 +84,7 @@ docker run -t --name=${CONTAINER_NAME} \
 **Windows:**
 ```bat
 set CONTAINER_NAME=sagemaker-notebook-container
-set IMAGE_NAME=qtangs/sagemaker-notebook:tensorflow_p36
+set IMAGE_NAME=qtangs/sagemaker-notebook:tensorflow-p36
 set WORKDDIR=/home/ec2-user
 set AWS_PROFILE=default-api
 
@@ -105,7 +105,7 @@ you can use `docker-compose.yml` file so that you don't have to type the full do
 version: "3"
 services:
   sagemaker-notebook-container:
-    image: qtangs/sagemaker-notebook:tensorflow_p36
+    image: qtangs/sagemaker-notebook:tensorflow-p36
     container_name: sagemaker-notebook-container
     ports:
       - 8888:8888
@@ -172,11 +172,42 @@ If you use connect to Git repository using SSH, then you need to mount the `.ssh
 
 *(For Windows, replace `~` with `%USERPROFILE%`)*
 
+#### Shared `SageMaker` directory
+To save all work created in the container, mount a directory to act as the `SageMaker` directory under `/home/ec2-user`:
+```bash
+-v /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker
+```
 
 ## Sample scripts
 Following sample scripts have been provided to show an example of running a container using `qtangs/sagemaker-notebook:python3` image:
-1. `run-python3-container.sh`
-2. `docker-compose.yml`, which works with a simple command:
+1. `run-python3-container.sh`:
+```bash
+docker run -t --name=sagemaker-notebook-container && \
+           -p 8888:8888 && \
+           -e AWS_PROFILE=default-api && \
+           -v ~/.aws:/home/ec2-user/.aws:ro && \
+           -v ~/.ssh:/home/ec2-user/.ssh:ro && \
+           -v /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker && \
+           qtangs/sagemaker-notebook:python3
+```
+2. `docker-compose.yml`:
+```yaml
+version: "3"
+services:
+  sagemaker-notebook-container:
+    image: qtangs/sagemaker-notebook:python3
+    container_name: sagemaker-notebook-container
+    ports:
+      - 8888:8888
+    environment:
+      AWS_PROFILE: "default-api"
+    volumes:
+      - ~/.aws:/home/ec2-user/.aws:ro                    # For AWS Credentials
+      - ~/.ssh:/home/ec2-user/.ssh:ro                    # For Git Credentials
+      - /var/run/docker.sock:/var/run/docker.sock:ro     # For Docker CLI
+      - /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker    # For saving work in a host directory
+```
+With that, the container can be started using:
 ```bash
 docker-compose up sagemaker-notebook-container
 ```
