@@ -12,6 +12,7 @@ including installed software and libraries, file structure and permissions, envi
 * [Optional additions](#optional-additions)
   * [Docker CLI](#docker-cli)
   * [Git integration](#git-integration)
+  * [Shared `SageMaker` directory](#shared-sagemaker-directory)
 * [Sample scripts](#sample-scripts)
 
 
@@ -177,6 +178,7 @@ To save all work created in the container, mount a directory to act as the `Sage
 ```bash
 -v /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker
 ```
+*(Replace `/Users/foobar/projects/SageMaker` with the appropriate folder from your own machine)*
 
 ## Sample scripts
 Following sample scripts have been provided to show an example of running a container using `qtangs/sagemaker-notebook:python3` image:
@@ -207,6 +209,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro     # For Docker CLI
       - /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker    # For saving work in a host directory
 ```
+*(Replace `/Users/foobar/projects/SageMaker` with the appropriate folder from your own machine)*
+
 With that, the container can be started using:
 ```bash
 docker-compose up sagemaker-notebook-container
