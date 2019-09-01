@@ -1,0 +1,10 @@
+chainer_p27
+chainer_p36
+mxnet_p27
+mxnet_p36
+python2
+python3
+pytorch_p27
+pytorch_p36
+tensorflow_p27
+tensorflow_p36
