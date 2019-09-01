@@ -1,0 +1,16 @@
+ipykernel
+ipython
+ipywidgets
+jsonschema
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+
+sagemaker
+chainer
+mxnet
+pytorch
+tensorflow

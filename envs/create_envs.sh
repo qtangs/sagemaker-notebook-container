@@ -11,7 +11,8 @@ pushd "$(dirname "$0")" || exit 1
 
 if [[ $envs == "ALL" ]]; then
     for env_file in *.yml; do
-        ./create_env.sh $env_file
+        export env_name=$(grep -oP 'name: \K([\w-]+)' $env_file)
+        ./create_env.sh $env_name
     done
 elif [[ $envs != "NONE" ]]; then
     # Ensure all environment names are valid before creating any of them
@@ -22,7 +23,7 @@ elif [[ $envs != "NONE" ]]; then
         fi
     done
     for env_name in ${envs//,/ }; do
-        ./create_env.sh $env_name.yml
+        ./create_env.sh $env_name
     done
 fi
 
