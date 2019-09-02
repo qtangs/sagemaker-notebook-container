@@ -17,6 +17,8 @@ def main():
     with open('include_libraries.txt', 'r') as f:
         libraries = f.readlines()
 
+    python_version = re.search(r" python=([0-9\.]+)", conda_libs).group(1)
+
     conda_libraries = collections.OrderedDict()
     pip_libraries = collections.OrderedDict()
 
@@ -48,9 +50,10 @@ def main():
                 else:
                     pip_libraries[library] = library_pip_version
 
-            else:
-                pass
+    write_env_file(env_name, python_version, conda_libraries, pip_libraries)
 
+
+def write_env_file(env_name, python_version, conda_libraries, pip_libraries):
     with open('{0}.yml'.format(env_name), 'w') as env_file:
         env_file.write('name: {0}\n'.format(env_name))
         env_file.write('channels:\n')
@@ -58,8 +61,7 @@ def main():
         env_file.write('  - defaults\n')
         env_file.write('dependencies:\n')
 
-        python_with_version = re.search(r" python=([0-9\.]+)", conda_libs)
-        env_file.write('  -{0}\n'.format(python_with_version.group(0)))
+        env_file.write('  - python={0}\n'.format(python_version))
 
         for library in conda_libraries:
             env_file.write('  - {0}={1}\n'.format(library, conda_libraries[library]))

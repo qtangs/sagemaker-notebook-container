@@ -13,8 +13,8 @@ services:
 
   sagemaker-notebook-container:
     build:
-      context: python3
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: envs_docker/Dockerfile.python3
     image: qtangs/sagemaker-notebook:python3
     container_name: sagemaker-notebook-container
     ports:
@@ -22,7 +22,8 @@ services:
     environment:
       AWS_PROFILE: "default-api"
     volumes:
-      - ~/.aws:/home/ec2-user/.aws:ro                    # For AWS Credentials
-      - ~/.ssh:/home/ec2-user/.ssh:ro                    # For Git Credentials
-      - /var/run/docker.sock:/var/run/docker.sock:ro     # For Docker CLI
+      - ~/.aws:/home/ec2-user/.aws:ro                                # For AWS Credentials
+      - ~/.ssh:/home/ec2-user/.ssh:ro                                # For Git Credentials
+      - /var/run/docker.sock:/var/run/docker.sock:ro                 # For Docker CLI
       - /Users/foobar/projects/SageMaker:/home/ec2-user/SageMaker    # For saving work in a host directory
+      # - .:/home/ec2-user/SageMaker/sagemaker-notebook-container    # For testing

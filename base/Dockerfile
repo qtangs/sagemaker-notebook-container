@@ -299,20 +299,6 @@ RUN if [ ! -z $INSTALL_OPTIONAL_PACKAGES]; then \
 
 
 # ==================================================================
-# Copy environment files
-# ------------------------------------------------------------------
-
-USER $NB_UID
-
-COPY utils/envs $HOME/envs/
-
-# Fix permissions on $HOME/envs/ as root
-USER root
-RUN fix-permissions $HOME/envs/
-
-
-
-# ==================================================================
 # Start service
 # ------------------------------------------------------------------
 
