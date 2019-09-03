@@ -6,7 +6,7 @@ FROM qtangs/sagemaker-notebook-base
 
 USER $NB_UID
 
-COPY envs $HOME/envs/
+COPY . $HOME/envs/
 
 # Fix permissions on $HOME/envs/ as root
 USER root

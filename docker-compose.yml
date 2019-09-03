@@ -1,20 +1,6 @@
 version: "3"
 services:
-  sagemaker-notebook-base:
-    build:
-      context: base
-      dockerfile: Dockerfile
-      args:
-        - UBUNTU_VERSION=18.04
-        - MINICONDA_VERSION=4.5.12
-        - CONDA_VERSION=4.5.12
-        - DOCKER_VERSION=19.03.1
-    image: qtangs/sagemaker-notebook-base:latest
-
   sagemaker-notebook-container:
-    build:
-      context: .
-      dockerfile: envs_docker/Dockerfile.python3
     image: qtangs/sagemaker-notebook:python3
     container_name: sagemaker-notebook-container
     ports:

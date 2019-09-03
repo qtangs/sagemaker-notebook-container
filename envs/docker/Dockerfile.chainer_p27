@@ -6,7 +6,7 @@ FROM qtangs/sagemaker-notebook-base
 
 USER $NB_UID
 
-COPY envs $HOME/envs/
+COPY . $HOME/envs/
 
 # Fix permissions on $HOME/envs/ as root
 USER root
@@ -14,5 +14,5 @@ RUN fix-permissions $HOME/envs/
 
 USER $NB_UID
 
-RUN $HOME/envs/create_env_file.sh python3 && \
-    $HOME/envs/create_env.sh python3
+RUN $HOME/envs/create_env_file.sh chainer_p27 && \
+    $HOME/envs/create_env.sh chainer_p27

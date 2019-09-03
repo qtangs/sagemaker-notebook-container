@@ -1,4 +1,4 @@
-FROM qtangs/sagemaker-notebook-base:python3
+FROM qtangs/sagemaker-notebook:python3
 
 # ==================================================================
 # Create environment(s)
@@ -6,5 +6,5 @@ FROM qtangs/sagemaker-notebook-base:python3
 
 USER $NB_UID
 
-RUN $HOME/envs/create_env_file.sh chainer_p36 && \
-    $HOME/envs/create_env.sh chainer_p36
+RUN $HOME/envs/create_env_file.sh tensorflow_p36 && \
+    $HOME/envs/create_env.sh tensorflow_p36

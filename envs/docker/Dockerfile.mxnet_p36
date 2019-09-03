@@ -6,7 +6,7 @@ FROM qtangs/sagemaker-notebook-base
 
 USER $NB_UID
 
-COPY envs $HOME/envs/
+COPY . $HOME/envs/
 
 # Fix permissions on $HOME/envs/ as root
 USER root
@@ -14,5 +14,5 @@ RUN fix-permissions $HOME/envs/
 
 USER $NB_UID
 
-RUN $HOME/envs/create_env_file.sh tensorflow_p36 && \
-    $HOME/envs/create_env.sh tensorflow_p36
+RUN $HOME/envs/create_env_file.sh mxnet_p36 && \
+    $HOME/envs/create_env.sh mxnet_p36
