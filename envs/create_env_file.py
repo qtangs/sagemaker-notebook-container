@@ -8,6 +8,9 @@ def main():
 
     with open('env_exports/{0}.yml'.format(env_name), 'r') as f:
         conda_libs = f.read().strip()
+        
+        # Get the first few lines of the environment file to get name and channels
+        start_lines = conda_libs[:conda_libs.index('dependencies')]
 
     with open('env_exports/{0}_pip.txt'.format(env_name), 'r') as f:
         # Change new line to space and add a space to the first line to enable searching for exact library names later
@@ -50,15 +53,12 @@ def main():
                 else:
                     pip_libraries[library] = library_pip_version
 
-    write_env_file(env_name, python_version, conda_libraries, pip_libraries)
+    write_env_file(env_name, start_lines, python_version, conda_libraries, pip_libraries)
 
 
-def write_env_file(env_name, python_version, conda_libraries, pip_libraries):
+def write_env_file(env_name, start_lines, python_version, conda_libraries, pip_libraries):
     with open('{0}.yml'.format(env_name), 'w') as env_file:
-        env_file.write('name: {0}\n'.format(env_name))
-        env_file.write('channels:\n')
-        env_file.write('  - conda-forge\n')
-        env_file.write('  - defaults\n')
+        env_file.write(start_lines)
         env_file.write('dependencies:\n')
 
         env_file.write('  - python={0}\n'.format(python_version))
