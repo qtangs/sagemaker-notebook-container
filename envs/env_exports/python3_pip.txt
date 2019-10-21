@@ -7,7 +7,7 @@ astropy==3.0.2
 attrs==18.1.0
 Automat==0.3.0
 autovizwidget==0.12.9
-awscli==1.16.254
+awscli==1.16.256
 Babel==2.5.3
 backcall==0.1.0
 backports.shutil-get-terminal-size==1.0.0
@@ -19,8 +19,8 @@ blaze==0.11.3
 bleach==2.1.3
 bokeh==1.0.4
 boto==2.48.0
-boto3==1.9.244
-botocore==1.12.244
+boto3==1.9.246
+botocore==1.12.246
 Bottleneck==1.2.1
 cached-property==1.5.1
 certifi==2019.6.16
@@ -181,7 +181,7 @@ rsa==3.4.2
 ruamel-yaml==0.15.35
 s3fs==0.1.5
 s3transfer==0.2.1
-sagemaker==1.42.6.post0
+sagemaker==1.42.8
 sagemaker-pyspark==1.2.5
 scikit-image==0.13.1
 scikit-learn==0.20.3

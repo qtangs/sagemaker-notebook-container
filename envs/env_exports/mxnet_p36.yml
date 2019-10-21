@@ -293,7 +293,7 @@ dependencies:
   - zlib=1.2.11=ha838bed_2
   - pip:
     - autovizwidget==0.12.9
-    - awscli==1.16.254
+    - awscli==1.16.256
     - bcrypt==3.1.7
     - cached-property==1.5.1
     - docker==3.7.3
@@ -330,7 +330,7 @@ dependencies:
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==3.4.2
-    - sagemaker==1.42.6.post0
+    - sagemaker==1.42.8
     - sagemaker-pyspark==1.2.5
     - sparkmagic==0.12.5
     - tables==3.4.3
