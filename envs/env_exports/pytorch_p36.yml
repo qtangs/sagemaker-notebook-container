@@ -1,8 +1,8 @@
 name: pytorch_p36
 channels:
   - pytorch
-  - conda-forge
   - fastai
+  - conda-forge
   - defaults
 dependencies:
   - libgfortran=3.0.0=1
@@ -34,13 +34,13 @@ dependencies:
   - blosc=1.14.3=hdbcaa40_0
   - bokeh=1.0.4=py36_0
   - boto=2.48.0=py36h6e4cd66_1
-  - boto3=1.9.162=py_0
-  - botocore=1.12.163=py_0
+  - boto3=1.9.234=py_0
+  - botocore=1.12.234=py_0
   - bottleneck=1.2.1=py36haac1ea0_0
   - bzip2=1.0.6=h14c3975_5
-  - ca-certificates=2019.5.15=0
+  - ca-certificates=2019.10.16=0
   - cairo=1.14.12=h8948797_3
-  - certifi=2019.6.16=py36_0
+  - certifi=2019.9.11=py36_0
   - cffi=1.11.5=py36h9745a5d_0
   - chardet=3.0.4=py36h0f667ec_1
   - click=6.7=py36h5253387_0
@@ -52,7 +52,6 @@ dependencies:
   - cudatoolkit=10.0.130=0
   - curl=7.60.0=h84994c4_0
   - cycler=0.10.0=py36h93f1223_0
-  - cymem=2.0.2=py36hfd86e86_0
   - cython=0.28.2=py36h14c3975_0
   - cytoolz=0.9.0.1=py36h14c3975_0
   - dask=0.17.5=py36_0
@@ -61,7 +60,6 @@ dependencies:
   - dbus=1.13.2=h714fa37_1
   - decorator=4.3.0=py36_0
   - defusedxml=0.6.0=py_0
-  - dill=0.2.9=py36_0
   - distributed=1.21.8=py36_0
   - docutils=0.14=py36hb0f60f5_0
   - entrypoints=0.2.3=py36h1aec115_2
@@ -148,7 +146,6 @@ dependencies:
   - mpc=1.0.3=hec55b23_5
   - mpfr=3.1.5=h11a74b3_2
   - mpmath=1.0.0=py36hfeacd6b_2
-  - msgpack-numpy=0.4.3.2=py36_0
   - msgpack-python=0.5.6=py36h6bb024c_0
   - multipledispatch=0.5.0=py36_0
   - murmurhash=1.0.2=py36he6710b0_0
@@ -168,9 +165,9 @@ dependencies:
   - odo=0.5.1=py36h90ed295_0
   - olefile=0.45.1=py36_0
   - openpyxl=2.5.3=py36_0
-  - openssl=1.0.2s=h7b6447c_0
+  - openssl=1.0.2t=h7b6447c_1
   - packaging=17.1=py36_0
-  - pandas=0.23.0=py36h637b7d7_0
+  - pandas=0.24.2=py36he6710b0_0
   - pandoc=1.19.2.1=hea2e7c5_1
   - pandocfilters=1.4.2=py36ha6701b7_1
   - pango=1.42.3=h8589676_0
@@ -231,7 +228,7 @@ dependencies:
   - rope=0.10.7=py36h147e2ec_0
   - ruamel_yaml=0.15.35=py36h14c3975_1
   - s3fs=0.1.5=py36_0
-  - s3transfer=0.2.0=py36_0
+  - s3transfer=0.2.1=py36_0
   - scikit-image=0.13.1=py36h14c3975_1
   - scikit-learn=0.19.1=py36h7aa7ec6_0
   - scipy=1.1.0=py36hfc37229_0
@@ -260,10 +257,9 @@ dependencies:
   - tk=8.6.8=hbc83047_0
   - toolz=0.9.0=py36_0
   - tornado=5.0.2=py36_0
-  - tqdm=4.32.1=py_0
+  - tqdm=4.36.1=py_0
   - traitlets=4.3.2=py36h674d592_0
   - typing=3.6.4=py36_0
-  - ujson=1.35=py36h14c3975_0
   - unicodecsv=0.14.1=py36ha668878_0
   - unixodbc=2.3.6=h1bed415_0
   - urllib3=1.23=py36_0
@@ -281,19 +277,23 @@ dependencies:
   - zeromq=4.2.5=h439df22_0
   - zict=0.1.3=py36h3a3bf81_0
   - zlib=1.2.11=ha838bed_2
+  - cymem=2.0.2=py36he1b5a44_0
+  - cython-blis=0.2.4=py36h516909a_1
   - dataclasses=0.6=py_0
-  - fastai=1.0.55=1
+  - fastai=1.0.59=1
   - fastprogress=0.1.21=py_0
   - nvidia-ml-py3=7.352.0=py_0
-  - regex=2018.01.10=py36h14c3975_1000
-  - spacy=2.0.18=py36hf484d3e_1000
-  - thinc=6.12.1=py36h637b7d7_1000
-  - pytorch=1.1.0=py3.6_cuda10.0.130_cudnn7.5.1_0
-  - torchvision=0.2.2=py_3
+  - spacy=2.1.8=py36hc9558a2_0
+  - srsly=0.1.0=py36he1b5a44_0
+  - thinc=7.0.8=py36hc9558a2_0
+  - wasabi=0.2.2=py_0
+  - pytorch=1.2.0=py3.6_cuda10.0.130_cudnn7.6.2_0
+  - torchvision=0.4.0=py36_cu100
   - pip:
-    - autovizwidget==0.12.9
-    - awscli==1.16.263
+    - autovizwidget==0.13.1
+    - awscli==1.16.283
     - bcrypt==3.1.7
+    - blis==0.2.4
     - cached-property==1.5.1
     - docker==3.7.3
     - docker-compose==1.24.1
@@ -302,31 +302,31 @@ dependencies:
     - docopt==0.6.2
     - environment-kernels==1.1.1
     - fabric==2.5.0
-    - hdijupyterutils==0.12.9
+    - hdijupyterutils==0.13.1
     - invoke==1.3.0
     - ipyparallel==6.2.2
     - mock==3.0.5
     - msgpack==0.6.0
-    - onnx==1.4.1
+    - onnx==1.5.0
     - paramiko==2.6.0
-    - plotly==4.0.0
+    - plotly==4.2.1
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
-    - pyasn1==0.4.7
+    - pyasn1==0.4.8
     - pygal==2.4.0
     - pynacl==1.3.0
     - pyspark==2.3.2
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==3.4.2
-    - sagemaker==1.43.1
-    - sagemaker-pyspark==1.2.5
+    - sagemaker==1.43.4.post1
+    - sagemaker-pyspark==1.2.6
     - sparkmagic==0.12.5
     - tables==3.4.3
     - texttable==0.9.1
-    - torch==1.1.0
-    - typing-extensions==3.7.4
+    - torch==1.2.0
+    - typing-extensions==3.7.4.1
     - websocket-client==0.56.0
 prefix: /home/ec2-user/anaconda3/envs/pytorch_p36
 
