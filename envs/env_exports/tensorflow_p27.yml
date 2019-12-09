@@ -353,8 +353,9 @@ dependencies:
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==3.4.2
-    - sagemaker==1.43.4.post1
+    - sagemaker==1.45.0.dev0
     - sagemaker-pyspark==1.2.6
+    - smdebug-rulesconfig==0.1.2
     - sparkmagic==0.12.5
     - tables==3.4.3
     - tensorboard==1.14.0
