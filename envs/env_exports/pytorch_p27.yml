@@ -1,7 +1,7 @@
 name: pytorch_p27
 channels:
-  - pytorch
   - conda-forge
+  - pytorch
   - defaults
 dependencies:
   - cryptography=2.7=py27h72c5cf5_0
