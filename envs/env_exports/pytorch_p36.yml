@@ -1,7 +1,7 @@
 name: pytorch_p36
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
   - fastai
   - defaults
 dependencies:
