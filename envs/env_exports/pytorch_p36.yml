@@ -6,13 +6,8 @@ channels:
   - defaults
 dependencies:
   - libgfortran=3.0.0=1
-  - libprotobuf=3.5.2=hd28b015_1
   - mpi=1.0=openmpi
-  - nb_conda=2.2.1=py36_2
-  - nb_conda_kernels=2.2.2=py36_0
   - openmpi=3.1.0=h26a2512_3
-  - protobuf=3.5.2=py36hd28b015_0
-  - requests=2.20.0=py36_1000
   - _libgcc_mutex=0.1=main
   - alabaster=0.7.10=py36h306e16b_0
   - anaconda-client=1.6.14=py36_0
@@ -32,15 +27,15 @@ dependencies:
   - blaze=0.11.3=py36h4e06776_0
   - bleach=2.1.3=py36_0
   - blosc=1.14.3=hdbcaa40_0
-  - bokeh=1.0.4=py36_0
+  - bokeh=0.12.16=py36_0
   - boto=2.48.0=py36h6e4cd66_1
-  - boto3=1.10.19=py_0
-  - botocore=1.13.19=py_0
+  - boto3=1.12.0=py_0
+  - botocore=1.15.0=py_0
   - bottleneck=1.2.1=py36haac1ea0_0
   - bzip2=1.0.6=h14c3975_5
-  - ca-certificates=2019.10.16=0
+  - ca-certificates=2020.1.1=0
   - cairo=1.14.12=h8948797_3
-  - certifi=2019.9.11=py36_0
+  - certifi=2019.11.28=py36_0
   - cffi=1.11.5=py36h9745a5d_0
   - chardet=3.0.4=py36h0f667ec_1
   - click=6.7=py36h5253387_0
@@ -115,6 +110,7 @@ dependencies:
   - kiwisolver=1.0.1=py36h764f252_0
   - krb5=1.14.2=hcdc1b81_6
   - lazy-object-proxy=1.3.1=py36h10fcdad_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
   - libcurl=7.60.0=h1ad7b7a_0
   - libedit=3.1.20170329=h6b74fdf_2
   - libffi=3.2.1=hd88cf55_4
@@ -149,6 +145,8 @@ dependencies:
   - msgpack-python=0.5.6=py36h6bb024c_0
   - multipledispatch=0.5.0=py36_0
   - murmurhash=1.0.2=py36he6710b0_0
+  - nb_conda=2.2.1=py36_0
+  - nb_conda_kernels=2.2.2=py36_0
   - nbconvert=5.4.1=py36_3
   - nbformat=4.4.0=py36h31c9010_0
   - ncurses=6.1=hf484d3e_0
@@ -165,7 +163,7 @@ dependencies:
   - odo=0.5.1=py36h90ed295_0
   - olefile=0.45.1=py36_0
   - openpyxl=2.5.3=py36_0
-  - openssl=1.0.2t=h7b6447c_1
+  - openssl=1.0.2u=h7b6447c_0
   - packaging=17.1=py36_0
   - pandas=0.24.2=py36he6710b0_0
   - pandoc=1.19.2.1=hea2e7c5_1
@@ -181,7 +179,7 @@ dependencies:
   - pep8=1.7.1=py36_0
   - pexpect=4.5.0=py36_0
   - pickleshare=0.7.4=py36h63277f8_0
-  - pillow=5.2.0=py36heded4f4_0
+  - pillow=5.4.1=py36h34e0f95_0
   - pip=10.0.1=py36_0
   - pixman=0.34.0=hceecf20_3
   - pkginfo=1.4.2=py36_1
@@ -225,10 +223,11 @@ dependencies:
   - qtconsole=4.3.1=py36h8f73b5b_0
   - qtpy=1.4.1=py36_0
   - readline=7.0=ha6073c6_4
+  - requests=2.20.0=py36_0
   - rope=0.10.7=py36h147e2ec_0
   - ruamel_yaml=0.15.35=py36h14c3975_1
   - s3fs=0.1.5=py36_0
-  - s3transfer=0.2.1=py36_0
+  - s3transfer=0.3.3=py36_0
   - scikit-image=0.13.1=py36h14c3975_1
   - scikit-learn=0.19.1=py36h7aa7ec6_0
   - scipy=1.1.0=py36hfc37229_0
@@ -259,7 +258,7 @@ dependencies:
   - tk=8.6.8=hbc83047_0
   - toolz=0.9.0=py36_0
   - tornado=5.0.2=py36_0
-  - tqdm=4.38.0=py_0
+  - tqdm=4.42.1=py_0
   - traitlets=4.3.2=py36h674d592_0
   - typing=3.6.4=py36_0
   - unicodecsv=0.14.1=py36ha668878_0
@@ -282,34 +281,37 @@ dependencies:
   - cymem=2.0.2=py36he1b5a44_0
   - cython-blis=0.2.4=py36h516909a_1
   - dataclasses=0.6=py_0
-  - fastai=1.0.59=1
-  - fastprogress=0.1.22=py_0
+  - fastai=1.0.60=1
+  - fastprogress=0.2.2=py_0
   - nvidia-ml-py3=7.352.0=py_0
   - spacy=2.1.8=py36hc9558a2_0
   - srsly=0.1.0=py36he1b5a44_0
   - thinc=7.0.8=py36hc9558a2_0
   - wasabi=0.2.2=py_0
-  - pytorch=1.3.1=py3.6_cuda10.1.243_cudnn7.6.3_0
-  - torchvision=0.4.2=py36_cu101
+  - pytorch=1.4.0=py3.6_cuda10.1.243_cudnn7.6.3_0
+  - torchvision=0.5.0=py36_cu101
   - pip:
-    - autovizwidget==0.13.1
-    - awscli==1.17.14
+    - autovizwidget==0.15.0
+    - awscli==1.18.20
     - bcrypt==3.1.7
     - blis==0.2.4
     - cached-property==1.5.1
-    - docker==4.1.0
+    - docker==4.2.0
     - docker-compose==1.25.4
     - dockerpty==0.4.1
     - docopt==0.6.2
+    - enum34==1.1.9
     - environment-kernels==1.1.1
-    - hdijupyterutils==0.13.1
+    - hdijupyterutils==0.15.0
     - importlib-metadata==1.5.0
     - ipyparallel==6.2.2
-    - mock==3.0.5
+    - mock==4.0.1
     - msgpack==0.6.0
     - onnx==1.5.0
-    - paramiko==2.6.0
-    - plotly==4.3.0
+    - opencv-python==4.1.1.26
+    - paramiko==2.7.1
+    - plotly==4.5.2
+    - protobuf==3.5.2
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
@@ -320,15 +322,15 @@ dependencies:
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==3.4.2
-    - sagemaker==1.50.9.post0
+    - sagemaker==1.51.3
     - sagemaker-pyspark==1.2.8
     - smdebug-rulesconfig==0.1.2
     - sparkmagic==0.12.5
     - tables==3.4.3
     - texttable==1.6.2
-    - torch==1.3.1
+    - torch==1.4.0
     - typing-extensions==3.7.4.1
-    - websocket-client==0.56.0
-    - zipp==2.2.0
+    - websocket-client==0.57.0
+    - zipp==3.0.0
 prefix: /home/ec2-user/anaconda3/envs/pytorch_p36
 

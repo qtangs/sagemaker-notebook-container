@@ -3,32 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - ffmpeg=4.0.2=ha0c5888_2
-  - freeglut=3.0.0=hf484d3e_1005
-  - gnutls=3.5.19=h2a4e5f8_1
   - libgfortran=3.0.0=1
-  - libglu=9.0.0=hf484d3e_1000
-  - libiconv=1.15=h516909a_1005
-  - libprotobuf=3.5.2=hd28b015_1
   - mpi=1.0=openmpi
-  - nb_conda=2.2.1=py36_2
-  - nb_conda_kernels=2.2.2=py36_0
-  - nettle=3.3=0
-  - openh264=1.8.0=hdbcaa40_1000
   - openmpi=3.1.0=h26a2512_3
-  - protobuf=3.5.2=py36hd28b015_0
-  - requests=2.20.0=py36_1000
-  - x264=1!152.20180806=h14c3975_0
-  - xorg-fixesproto=5.0=h14c3975_1002
-  - xorg-inputproto=2.3.2=h14c3975_1002
-  - xorg-kbproto=1.0.7=h14c3975_1002
-  - xorg-libx11=1.6.9=h516909a_0
-  - xorg-libxau=1.0.9=h14c3975_0
-  - xorg-libxext=1.3.4=h516909a_0
-  - xorg-libxfixes=5.0.3=h516909a_1004
-  - xorg-libxi=1.7.10=h516909a_0
-  - xorg-xextproto=7.3.0=h14c3975_1002
-  - xorg-xproto=7.0.31=h14c3975_1007
   - _libgcc_mutex=0.1=main
   - alabaster=0.7.10=py36h306e16b_0
   - anaconda-client=1.6.14=py36_0
@@ -48,15 +25,15 @@ dependencies:
   - blaze=0.11.3=py36h4e06776_0
   - bleach=2.1.3=py36_0
   - blosc=1.14.3=hdbcaa40_0
-  - bokeh=1.0.4=py36_0
+  - bokeh=0.12.16=py36_0
   - boto=2.48.0=py36h6e4cd66_1
-  - boto3=1.10.19=py_0
-  - botocore=1.13.19=py_0
+  - boto3=1.12.0=py_0
+  - botocore=1.15.0=py_0
   - bottleneck=1.2.1=py36haac1ea0_0
   - bzip2=1.0.6=h14c3975_5
-  - ca-certificates=2019.10.16=0
-  - cairo=1.14.12=h8948797_3
-  - certifi=2019.9.11=py36_0
+  - ca-certificates=2020.1.1=0
+  - cairo=1.14.12=h7636065_2
+  - certifi=2019.11.28=py36_0
   - cffi=1.11.5=py36h9745a5d_0
   - chardet=3.0.4=py36h0f667ec_1
   - click=6.7=py36h5253387_0
@@ -84,9 +61,8 @@ dependencies:
   - filelock=3.0.4=py36_0
   - flask=1.0.2=py36_1
   - flask-cors=3.0.4=py36_0
-  - fontconfig=2.13.0=h9420a91_0
-  - freetype=2.9.1=h8a8886c_1
-  - fribidi=1.0.5=h7b6447c_0
+  - fontconfig=2.12.6=h49f89f6_0
+  - freetype=2.8=hab7d2ae_1
   - get_terminal_size=1.0.0=haa9412d_0
   - gevent=1.3.0=py36h14c3975_0
   - glib=2.56.1=h000015b_0
@@ -94,12 +70,12 @@ dependencies:
   - gmp=6.1.2=h6c8ec71_1
   - gmpy2=2.0.8=py36hc8893dd_2
   - graphite2=1.3.11=h16798f4_2
-  - graphviz=2.40.1=h21bd128_2
+  - graphviz=2.40.1=h25d223c_0
   - greenlet=0.4.13=py36h14c3975_0
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.0=hb453b48_1
   - h5py=2.8.0=py36h989c5e5_3
-  - harfbuzz=1.8.8=hffaf4a1_0
+  - harfbuzz=1.7.6=h5f0a787_1
   - hdf5=1.10.2=hba1933b_1
   - heapdict=1.0.0=py36_2
   - html5lib=1.0.1=py36h2f9c1c0_0
@@ -114,7 +90,6 @@ dependencies:
   - ipywidgets=7.2.1=py36_0
   - isort=4.3.4=py36_0
   - itsdangerous=0.24=py36h93cc618_1
-  - jasper=2.0.14=h07fcdf6_1
   - jbig=2.1=hdba287a_0
   - jdcal=1.4=py36_0
   - jedi=0.12.0=py36_1
@@ -131,19 +106,18 @@ dependencies:
   - kiwisolver=1.0.1=py36h764f252_0
   - krb5=1.14.2=hcdc1b81_6
   - lazy-object-proxy=1.3.1=py36h10fcdad_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
   - libcurl=7.60.0=h1ad7b7a_0
   - libedit=3.1.20170329=h6b74fdf_2
   - libffi=3.2.1=hd88cf55_4
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.2.0=hdf63c60_3
-  - libopencv=3.4.2=hb342d67_1
   - libpng=1.6.34=hb9fc6fc_0
   - libsodium=1.0.16=h1bed415_0
   - libssh2=1.8.0=h9cfc8f7_4
   - libstdcxx-ng=9.1.0=hdf63c60_0
   - libtiff=4.0.9=he85c1e1_1
   - libtool=2.4.6=h544aabb_3
-  - libuuid=1.0.3=h1bed415_2
   - libxcb=1.13=h1bed415_1
   - libxml2=2.9.8=h26e45fe_1
   - libxslt=1.1.32=h1312cb7_0
@@ -152,7 +126,7 @@ dependencies:
   - lxml=4.2.1=py36h23eabaa_0
   - lzo=2.10=h49e0be7_2
   - markupsafe=1.0=py36hd9260cd_1
-  - matplotlib=2.2.3=py36hb69df0a_0
+  - matplotlib=2.2.2=py36h0e671d2_1
   - mccabe=0.6.1=py36h5ad9710_1
   - mistune=0.8.3=py36h14c3975_1
   - mkl=2018.0.2=1
@@ -165,6 +139,8 @@ dependencies:
   - mpmath=1.0.0=py36hfeacd6b_2
   - msgpack-python=0.5.6=py36h6bb024c_0
   - multipledispatch=0.5.0=py36_0
+  - nb_conda=2.2.1=py36_0
+  - nb_conda_kernels=2.2.2=py36_0
   - nbconvert=5.4.1=py36_3
   - nbformat=4.4.0=py36h31c9010_0
   - ncurses=6.1=hf484d3e_0
@@ -179,14 +155,13 @@ dependencies:
   - numpydoc=0.8.0=py36_0
   - odo=0.5.1=py36h90ed295_0
   - olefile=0.45.1=py36_0
-  - opencv=3.4.2=py36h6fd60c2_1
   - openpyxl=2.5.3=py36_0
-  - openssl=1.0.2t=h7b6447c_1
+  - openssl=1.0.2u=h7b6447c_0
   - packaging=17.1=py36_0
   - pandas=0.24.2=py36he6710b0_0
   - pandoc=1.19.2.1=hea2e7c5_1
   - pandocfilters=1.4.2=py36ha6701b7_1
-  - pango=1.42.3=h8589676_0
+  - pango=1.41.0=hd475d92_0
   - parso=0.2.0=py36_0
   - partd=0.3.8=py36h36fd896_0
   - patchelf=0.9=hf79760b_2
@@ -197,7 +172,7 @@ dependencies:
   - pep8=1.7.1=py36_0
   - pexpect=4.5.0=py36_0
   - pickleshare=0.7.4=py36h63277f8_0
-  - pillow=5.2.0=py36heded4f4_0
+  - pillow=5.1.0=py36h3deb7b8_0
   - pip=10.0.1=py36_0
   - pixman=0.34.0=hceecf20_3
   - pkginfo=1.4.2=py36_1
@@ -207,7 +182,6 @@ dependencies:
   - psutil=5.6.3=py36h7b6447c_0
   - ptyprocess=0.5.2=py36h69acd42_0
   - py=1.5.3=py36_0
-  - py-opencv=3.4.2=py36hb342d67_1
   - pycodestyle=2.4.0=py36_0
   - pycosat=0.6.3=py36h0a5515d_0
   - pycparser=2.18=py36hf9f622e_1
@@ -235,15 +209,16 @@ dependencies:
   - pywavelets=0.5.2=py36he602eb0_0
   - pyyaml=3.12=py36hafb9ca4_1
   - pyzmq=17.0.0=py36h14c3975_0
-  - qt=5.9.6=h52aff34_0
+  - qt=5.9.5=h7e424d6_0
   - qtawesome=0.4.4=py36h609ed8c_0
   - qtconsole=4.3.1=py36h8f73b5b_0
   - qtpy=1.4.1=py36_0
   - readline=7.0=ha6073c6_4
+  - requests=2.20.0=py36_0
   - rope=0.10.7=py36h147e2ec_0
   - ruamel_yaml=0.15.35=py36h14c3975_1
   - s3fs=0.1.5=py36_0
-  - s3transfer=0.2.1=py36_0
+  - s3transfer=0.3.3=py36_0
   - scikit-image=0.13.1=py36h14c3975_1
   - scikit-learn=0.19.1=py36h7aa7ec6_0
   - scipy=1.1.0=py36hfc37229_0
@@ -294,32 +269,36 @@ dependencies:
   - zict=0.1.3=py36h3a3bf81_0
   - zlib=1.2.11=ha838bed_2
   - pip:
-    - autovizwidget==0.13.1
-    - aws-mxnet-mkl==1.6.0rc0
-    - awscli==1.17.14
+    - autovizwidget==0.15.0
+    - aws-mxnet-mkl==1.6.0
+    - awscli==1.18.20
     - bcrypt==3.1.7
     - cached-property==1.5.1
-    - docker==4.1.0
+    - docker==4.2.0
     - docker-compose==1.25.4
     - dockerpty==0.4.1
     - docopt==0.6.2
     - enum-compat==0.0.3
+    - enum34==1.1.9
     - environment-kernels==1.1.1
     - future==0.18.2
-    - hdijupyterutils==0.13.1
+    - hdijupyterutils==0.15.0
+    - horovod==0.19.0
     - importlib-metadata==1.5.0
     - ipyparallel==6.2.2
     - keras-applications==1.0.8
     - keras-mxnet==2.2.4.2
     - keras-preprocessing==1.1.0
-    - mock==3.0.5
+    - mock==4.0.1
     - model-archiver==1.0.3
     - msgpack==0.6.0
     - mxboard==0.1.0
     - mxnet-model-server==1.0.8
     - onnx==1.3.0
-    - paramiko==2.6.0
-    - plotly==4.3.0
+    - opencv-python==4.1.1.26
+    - paramiko==2.7.1
+    - plotly==4.5.2
+    - protobuf==3.5.2
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
@@ -330,14 +309,14 @@ dependencies:
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==3.4.2
-    - sagemaker==1.50.9.post0
+    - sagemaker==1.51.3
     - sagemaker-pyspark==1.2.8
     - smdebug-rulesconfig==0.1.2
     - sparkmagic==0.12.5
     - tables==3.4.3
     - texttable==1.6.2
     - typing-extensions==3.7.4.1
-    - websocket-client==0.56.0
-    - zipp==2.2.0
+    - websocket-client==0.57.0
+    - zipp==3.0.0
 prefix: /home/ec2-user/anaconda3/envs/mxnet_p36
 
