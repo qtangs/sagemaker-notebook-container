@@ -289,7 +289,7 @@ dependencies:
     - astor==0.8.1
     - automat==0.3.0
     - autovizwidget==0.15.0
-    - awscli==1.18.20
+    - awscli==1.18.24
     - backports.ssl-match-hostname==3.5.0.1
     - backports.weakref==1.0.post1
     - bcrypt==3.1.7

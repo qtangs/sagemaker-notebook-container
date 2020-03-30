@@ -271,7 +271,7 @@ dependencies:
   - pip:
     - automat==0.3.0
     - autovizwidget==0.15.0
-    - awscli==1.18.20
+    - awscli==1.18.24
     - bcrypt==3.1.7
     - cached-property==1.5.1
     - characteristic==14.3.0

@@ -271,7 +271,7 @@ dependencies:
   - pip:
     - alembic==1.4.1
     - autovizwidget==0.15.0
-    - awscli==1.18.20
+    - awscli==1.18.24
     - bcrypt==3.1.7
     - cached-property==1.5.1
     - chainer==6.1.0

@@ -286,7 +286,7 @@ dependencies:
   - torchvision=0.5.0=py27_cu101
   - pip:
     - autovizwidget==0.15.0
-    - awscli==1.18.20
+    - awscli==1.18.24
     - backports.ssl-match-hostname==3.5.0.1
     - bcrypt==3.1.7
     - cached-property==1.5.1
