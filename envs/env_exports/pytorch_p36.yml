@@ -1,8 +1,8 @@
 name: pytorch_p36
 channels:
-  - pytorch
-  - fastai
   - conda-forge
+  - fastai
+  - pytorch
   - defaults
 dependencies:
   - libgfortran=3.0.0=1
