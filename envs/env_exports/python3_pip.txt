@@ -10,7 +10,7 @@ attrs==19.3.0
 Automat==20.2.0
 autopep8==1.4.4
 autovizwidget==0.16.0
-awscli==1.18.149
+awscli==1.18.179
 Babel==2.8.0
 backcall==0.1.0
 backports.shutil-get-terminal-size==1.0.0
@@ -18,11 +18,11 @@ bcrypt==3.2.0
 beautifulsoup4==4.8.2
 bitarray==1.2.1
 bkcharts==0.2
-bleach==3.1.5
+bleach==3.2.1
 bokeh==1.4.0
 boto==2.49.0
-boto3==1.15.8
-botocore==1.18.8
+boto3==1.16.19
+botocore==1.19.19
 Bottleneck==1.3.2
 cached-property==1.5.2
 certifi==2020.6.20
@@ -49,7 +49,6 @@ dockerpty==0.4.1
 docopt==0.6.2
 docutils==0.15.2
 entrypoints==0.3
-enum34==1.1.10
 environment-kernels==1.1.1
 et-xmlfile==1.0.1
 fastcache==1.1.0
@@ -61,6 +60,7 @@ future==0.18.2
 gevent==1.4.0
 glob2==0.7
 gmpy2==2.0.8
+google-pasta==0.2.0
 greenlet==0.4.15
 h5py==2.10.0
 hdijupyterutils==0.16.0
@@ -71,6 +71,7 @@ idna==2.8
 imageio==2.6.1
 imagesize==1.2.0
 importlib-metadata==1.5.0
+inotify-simple==1.2.1
 intervaltree==3.0.2
 ipykernel==5.1.4
 ipyparallel==6.3.0
@@ -100,7 +101,7 @@ libarchive-c==2.8
 lief==0.9.0
 llvmlite==0.31.0
 locket==0.2.0
-lxml==4.5.0
+lxml==4.6.1
 MarkupSafe==1.1.1
 matplotlib==3.1.3
 mccabe==0.6.1
@@ -144,12 +145,12 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==7.2.0
 pkginfo==1.5.0.1
-plotly==4.10.0
+plotly==4.12.0
 pluggy==0.13.1
 ply==3.11
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-protobuf==3.13.0
+protobuf==3.11.4
 protobuf3-to-dict==0.1.5
 psutil==5.6.7
 psycopg2==2.7.5
@@ -184,7 +185,7 @@ pytest-doctestplus==0.5.0
 pytest-openfiles==0.4.0
 pytest-remotedata==0.3.2
 python-dateutil==2.8.1
-python-dotenv==0.14.0
+python-dotenv==0.15.0
 python-jsonrpc-server==0.3.4
 python-language-server==0.31.7
 pytz==2019.3
@@ -205,8 +206,11 @@ Rtree==0.9.3
 ruamel-yaml==0.15.87
 s3fs==0.4.2
 s3transfer==0.3.3
-sagemaker==1.72.1
+sagemaker==2.16.4.dev0
 sagemaker-pyspark==1.4.1
+sagemaker-pytorch-training==2.3.1.dev0
+sagemaker-tensorflow-training==10.1.8.dev0
+sagemaker-training==3.6.3.post0
 scikit-image==0.16.2
 scikit-learn==0.22.1
 scipy==1.4.1
@@ -216,7 +220,8 @@ Send2Trash==1.5.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.14.0
-smdebug-rulesconfig==0.1.4
+sklearn==0.0
+smdebug-rulesconfig==0.1.6
 snowballstemmer==2.0.0
 sortedcollections==1.1.2
 sortedcontainers==2.1.0
@@ -248,7 +253,7 @@ traitlets==4.3.3
 typed-ast==1.4.1
 ujson==1.35
 unicodecsv==0.14.1
-urllib3==1.25.8
+urllib3==1.25.10
 watchdog==0.10.2
 wcwidth==0.1.8
 webencodings==0.5.1

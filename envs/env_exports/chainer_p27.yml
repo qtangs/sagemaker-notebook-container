@@ -22,7 +22,6 @@ dependencies:
   - bitarray=1.0.1=py27h7b6447c_0
   - bkcharts=0.2=py27_0
   - blas=1.0=mkl
-  - bleach=3.1.0=py27_0
   - blosc=1.16.3=hd408876_0
   - bokeh=1.3.4=py27_0
   - boto=2.49.0=py27_0
@@ -166,7 +165,7 @@ dependencies:
   - olefile=0.46=py27_0
   - openmpi=3.1.0=h26a2512_3
   - openpyxl=2.6.3=py_0
-  - openssl=1.1.1g=h516909a_1
+  - openssl=1.1.1h=h516909a_0
   - pandas=0.24.2=py27he6710b0_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py27_1
@@ -187,7 +186,6 @@ dependencies:
   - ply=3.11=py27_0
   - prometheus_client=0.7.1=py_0
   - prompt_toolkit=1.0.15=py27_0
-  - psutil=5.6.3=py27h7b6447c_0
   - ptyprocess=0.6.0=py27_0
   - py=1.8.0=py27_0
   - py-lief=0.9.0=py27h7725739_2
@@ -264,7 +262,6 @@ dependencies:
   - unicodecsv=0.14.1=py27_0
   - unittest2=1.1.0=py27_0
   - unixodbc=2.3.7=h14c3975_0
-  - urllib3=1.24.2=py27_0
   - wcwidth=0.1.7=py27_0
   - webencodings=0.5.1=py27_1
   - werkzeug=0.16.0=py_0
@@ -286,11 +283,12 @@ dependencies:
     - alembic==1.4.3
     - argparse==1.4.0
     - autovizwidget==0.16.0
-    - awscli==1.18.149
+    - awscli==1.18.179
     - bcrypt==3.1.7
-    - boto3==1.15.8
-    - botocore==1.18.8
-    - cached-property==1.5.1
+    - bleach==3.2.1
+    - boto3==1.16.19
+    - botocore==1.19.19
+    - cached-property==1.5.2
     - chainer==6.1.0
     - chainercv==0.13.1
     - chainerrl==0.7.0
@@ -307,7 +305,7 @@ dependencies:
     - gym==0.16.0
     - hdijupyterutils==0.16.0
     - ideep4py==2.0.0.post3
-    - importlib-metadata==1.7.0
+    - importlib-metadata==2.0.0
     - ipython==5.9.0
     - mako==1.1.3
     - matplotlib==2.2.5
@@ -318,9 +316,10 @@ dependencies:
     - paramiko==2.7.2
     - pillow==6.2.2
     - pip==19.2.3
-    - plotly==4.10.0
+    - plotly==4.12.0
     - protobuf==3.7.1
     - protobuf3-to-dict==0.1.5
+    - psutil==5.6.7
     - psycopg2==2.7.5
     - ptable==0.9.2
     - py4j==0.10.7
@@ -331,7 +330,7 @@ dependencies:
     - pynacl==1.4.0
     - pyspark==2.3.4
     - python-dateutil==2.8.1
-    - python-dotenv==0.14.0
+    - python-dotenv==0.15.0
     - python-editor==1.0.4
     - pyyaml==5.3.1
     - requests-kerberos==0.12.0
@@ -347,6 +346,7 @@ dependencies:
     - texttable==1.6.3
     - typing==3.6.6
     - typing-extensions==3.6.6
+    - urllib3==1.25.10
     - websocket-client==0.57.0
 prefix: /home/ec2-user/anaconda3/envs/chainer_p27
 
