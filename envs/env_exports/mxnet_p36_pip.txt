@@ -6,11 +6,11 @@ asn1crypto==1.3.0
 astroid==2.4.2
 astropy==4.0
 atomicwrites==1.3.0
-attrs==19.3.0
+attrs==20.3.0
 autopep8==1.4.4
-autovizwidget==0.16.0
-aws-mxnet-mkl==1.6.0
-awscli==1.18.179
+autovizwidget==0.17.1
+aws-mxnet-mkl @ file:///home/ec2-user/.dl_binaries/mxnet/cpu_2.7_3.6/aws_mxnet_mkl-1.6.0-py2.py3-none-manylinux1_x86_64.whl
+awscli==1.18.197
 Babel==2.8.0
 backcall==0.1.0
 backports.shutil-get-terminal-size==1.0.0
@@ -21,11 +21,11 @@ bkcharts==0.2
 bleach==3.2.1
 bokeh==1.4.0
 boto==2.49.0
-boto3==1.16.19
-botocore==1.19.19
+boto3==1.16.37
+botocore==1.19.37
 Bottleneck==1.3.2
 cached-property==1.5.2
-certifi==2020.6.20
+certifi==2020.11.8
 cffi==1.14.0
 chardet==3.0.4
 Click==7.0
@@ -41,9 +41,10 @@ dask==2.11.0
 decorator==4.4.1
 defusedxml==0.6.0
 diff-match-patch==20181111
+dill==0.3.3
 distributed==2.11.0
 distro==1.5.0
-docker==4.3.1
+docker==4.4.0
 docker-compose==1.27.4
 dockerpty==0.4.1
 docopt==0.6.2
@@ -65,19 +66,18 @@ google-pasta==0.2.0
 graphviz==0.8.4
 greenlet==0.4.15
 h5py==2.10.0
-hdijupyterutils==0.16.0
+hdijupyterutils==0.17.1
 HeapDict==1.0.1
 horovod==0.19.5
 html5lib==1.0.1
 hypothesis==5.5.4
-idna==2.8
+idna==2.10
 imageio==2.6.1
 imagesize==1.2.0
-importlib-metadata==1.5.0
-inotify-simple==1.2.1
+importlib-metadata==3.1.0
 intervaltree==3.0.2
 ipykernel==5.1.4
-ipyparallel==6.3.0
+ipyparallel @ file:///tmp/build/80754af9/ipyparallel_1593440601845/work
 ipython==7.12.0
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
@@ -87,7 +87,7 @@ jdcal==1.4.1
 jedi==0.14.1
 jeepney==0.4.2
 Jinja2==2.11.1
-jmespath==0.10.0
+jmespath @ file:///tmp/build/80754af9/jmespath_1594304593830/work
 joblib==0.14.1
 json5==0.9.1
 jsonschema==3.2.0
@@ -124,7 +124,7 @@ multi-model-server==1.1.2
 multipledispatch==0.6.0
 mxboard==0.1.0
 nb-conda==2.2.1
-nb-conda-kernels==2.2.4
+nb-conda-kernels @ file:///tmp/build/80754af9/nb_conda_kernels_1598624781735/work
 nbconvert==5.6.1
 nbformat==5.0.4
 networkx==2.4
@@ -133,13 +133,13 @@ nose==1.3.7
 notebook==6.0.3
 numba==0.48.0
 numexpr==2.7.1
-numpy==1.18.1
+numpy==1.19.4
 numpydoc==0.9.2
 olefile==0.46
 onnx==1.3.0
 opencv-python==4.2.0.32
 openpyxl==3.0.3
-packaging==20.1
+packaging==20.7
 pandas==1.0.1
 pandocfilters==1.4.2
 paramiko==2.7.2
@@ -154,19 +154,19 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==7.0.0
 pkginfo==1.5.0.1
-plotly==4.12.0
+plotly==4.13.0
 pluggy==0.13.1
 ply==3.11
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-protobuf==3.11.4
+protobuf==3.14.0
 protobuf3-to-dict==0.1.5
 psutil==5.6.7
 psycopg2==2.7.5
-PTable==0.9.2
 ptyprocess==0.6.0
 py==1.8.1
 py4j==0.10.7
+pyarrow==2.0.0
 pyasn1==0.4.8
 pycodestyle==2.5.0
 pycosat==0.6.3
@@ -175,14 +175,15 @@ pycrypto==2.6.1
 pycurl==7.43.0.5
 pydocstyle==4.0.1
 pyflakes==2.1.1
+pyfunctional==1.4.2
 pygal==2.4.0
 Pygments==2.5.2
 pykerberos==1.2.1
-pylint==2.5.3
+pylint==2.6.0
 PyNaCl==1.4.0
 pyodbc===4.0.0-unsupported
 pyOpenSSL==19.1.0
-pyparsing==2.4.6
+pyparsing==2.4.7
 pyrsistent==0.15.7
 PySocks==1.7.1
 pyspark==2.3.4
@@ -206,7 +207,7 @@ QDarkStyle==2.8
 QtAwesome==0.6.1
 qtconsole==4.6.0
 QtPy==1.9.0
-requests==2.22.0
+requests==2.25.0
 requests-kerberos==0.12.0
 retrying==1.3.3
 rope==0.16.0
@@ -215,11 +216,8 @@ Rtree==0.9.3
 ruamel-yaml==0.15.87
 s3fs==0.4.2
 s3transfer==0.3.3
-sagemaker==2.16.4.dev0
+sagemaker==2.19.0
 sagemaker-pyspark==1.4.1
-sagemaker-pytorch-training==2.3.1.dev0
-sagemaker-tensorflow-training==10.1.8.dev0
-sagemaker-training==3.6.3.post0
 scikit-image==0.16.2
 scikit-learn==0.22.1
 scipy==1.4.1
@@ -228,9 +226,10 @@ SecretStorage==3.1.2
 Send2Trash==1.5.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
-six==1.14.0
+six==1.15.0
 sklearn==0.0
-smdebug-rulesconfig==0.1.6
+smclarify @ file:///tmp/smclarify-0.1-py3-none-any.whl
+smdebug-rulesconfig==1.0.0
 snowballstemmer==2.0.0
 sortedcollections==1.1.2
 sortedcontainers==2.1.0
@@ -250,11 +249,12 @@ SQLAlchemy==1.3.13
 statsmodels==0.11.0
 sympy==1.5.1
 tables==3.6.1
+tabulate==0.8.7
 tblib==1.6.0
 terminado==0.8.3
 testpath==0.4.4
 texttable==1.6.3
-toml==0.10.1
+toml==0.10.2
 toolz==0.10.0
 tornado==6.0.3
 tqdm==4.42.1
@@ -264,7 +264,7 @@ typing==3.7.4.3
 typing-extensions==3.7.4.3
 ujson==1.35
 unicodecsv==0.14.1
-urllib3==1.25.10
+urllib3==1.25.11
 watchdog==0.10.2
 wcwidth==0.1.8
 webencodings==0.5.1
@@ -278,4 +278,4 @@ XlsxWriter==1.2.7
 xlwt==1.3.0
 yapf==0.28.0
 zict==1.0.0
-zipp==2.2.0
+zipp==3.4.0

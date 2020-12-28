@@ -6,10 +6,10 @@ asn1crypto==1.3.0
 astroid==2.4.2
 astropy==4.0
 atomicwrites==1.3.0
-attrs==19.3.0
+attrs==20.3.0
 autopep8==1.4.4
-autovizwidget==0.16.0
-awscli==1.18.179
+autovizwidget==0.17.1
+awscli==1.18.197
 Babel==2.8.0
 backcall==0.1.0
 backports.shutil-get-terminal-size==1.0.0
@@ -18,15 +18,15 @@ beautifulsoup4==4.8.2
 bitarray==1.2.1
 bkcharts==0.2
 bleach==3.2.1
-blis==0.4.1
+blis @ file:///home/conda/feedstock_root/build_artifacts/cython-blis_1606130919081/work
 bokeh==1.4.0
 boto==2.49.0
-boto3==1.16.19
-botocore==1.19.19
+boto3==1.16.37
+botocore==1.19.37
 Bottleneck==1.3.2
 cached-property==1.5.2
-catalogue==1.0.0
-certifi==2020.6.20
+catalogue @ file:///home/conda/feedstock_root/build_artifacts/catalogue_1605613586357/work
+certifi==2020.11.8
 cffi==1.14.0
 chardet==3.0.4
 Click==7.0
@@ -36,17 +36,17 @@ colorama==0.4.3
 contextlib2==0.6.0.post1
 cryptography==2.8
 cycler==0.10.0
-cymem==2.0.3
+cymem @ file:///home/conda/feedstock_root/build_artifacts/cymem_1604919352373/work
 Cython==0.29.15
 cytoolz==0.10.1
 dask==2.11.0
-dataclasses==0.7
 decorator==4.4.1
 defusedxml==0.6.0
 diff-match-patch==20181111
+dill==0.3.3
 distributed==2.11.0
 distro==1.5.0
-docker==4.3.1
+docker==4.4.0
 docker-compose==1.27.4
 dockerpty==0.4.1
 docopt==0.6.2
@@ -56,7 +56,7 @@ environment-kernels==1.1.1
 et-xmlfile==1.0.1
 fastai==1.0.61
 fastcache==1.1.0
-fastprogress==1.0.0
+fastprogress @ file:///home/jhoward/anaconda3/conda-bld/fastprogress_1597927594295/work
 filelock==3.0.12
 flake8==3.7.9
 Flask==1.1.1
@@ -68,18 +68,17 @@ gmpy2==2.0.8
 google-pasta==0.2.0
 greenlet==0.4.15
 h5py==2.10.0
-hdijupyterutils==0.16.0
+hdijupyterutils==0.17.1
 HeapDict==1.0.1
 html5lib==1.0.1
 hypothesis==5.5.4
-idna==2.8
+idna==2.10
 imageio==2.6.1
 imagesize==1.2.0
-importlib-metadata==2.0.0
-inotify-simple==1.2.1
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1606196818768/work
 intervaltree==3.0.2
 ipykernel==5.1.4
-ipyparallel==6.3.0
+ipyparallel @ file:///tmp/build/80754af9/ipyparallel_1593440601845/work
 ipython==7.12.0
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
@@ -89,7 +88,7 @@ jdcal==1.4.1
 jedi==0.14.1
 jeepney==0.4.2
 Jinja2==2.11.1
-jmespath==0.10.0
+jmespath @ file:///tmp/build/80754af9/jmespath_1594304593830/work
 joblib==0.14.1
 json5==0.9.1
 jsonschema==3.2.0
@@ -119,9 +118,9 @@ more-itertools==8.2.0
 mpmath==1.1.0
 msgpack==0.6.1
 multipledispatch==0.6.0
-murmurhash==1.0.0
+murmurhash==1.0.4
 nb-conda==2.2.1
-nb-conda-kernels==2.2.4
+nb-conda-kernels @ file:///tmp/build/80754af9/nb_conda_kernels_1598624781735/work
 nbconvert==5.6.1
 nbformat==5.0.4
 networkx==2.4
@@ -130,13 +129,13 @@ nose==1.3.7
 notebook==6.0.3
 numba==0.48.0
 numexpr==2.7.1
-numpy==1.18.1
+numpy==1.19.4
 numpydoc==0.9.2
 olefile==0.46
 onnx==1.5.0
 opencv-python==4.2.0.32
 openpyxl==3.0.3
-packaging==20.1
+packaging==20.7
 pandas==1.0.1
 pandocfilters==1.4.2
 paramiko==2.7.2
@@ -152,20 +151,20 @@ pickleshare==0.7.5
 Pillow==7.0.0
 pkginfo==1.5.0.1
 plac==0.9.6
-plotly==4.12.0
+plotly==4.13.0
 pluggy==0.13.1
 ply==3.11
-preshed==3.0.2
+preshed @ file:///home/conda/feedstock_root/build_artifacts/preshed_1605166132152/work
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-protobuf==3.11.4
+protobuf==3.14.0
 protobuf3-to-dict==0.1.5
 psutil==5.6.7
 psycopg2==2.7.5
-PTable==0.9.2
 ptyprocess==0.6.0
 py==1.8.1
 py4j==0.10.7
+pyarrow==2.0.0
 pyasn1==0.4.8
 pycodestyle==2.5.0
 pycosat==0.6.3
@@ -174,15 +173,16 @@ pycrypto==2.6.1
 pycurl==7.43.0.5
 pydocstyle==4.0.1
 pyflakes==2.1.1
+pyfunctional==1.4.2
 pygal==2.4.0
 Pygments==2.5.2
 pykerberos==1.2.1
-pylint==2.5.3
+pylint==2.6.0
 PyNaCl==1.4.0
-pynvml==8.0.4
+pynvml @ file:///home/conda/feedstock_root/build_artifacts/pynvml_1594169898909/work
 pyodbc===4.0.0-unsupported
 pyOpenSSL==19.1.0
-pyparsing==2.4.6
+pyparsing==2.4.7
 pyrsistent==0.15.7
 PySocks==1.7.1
 pyspark==2.3.4
@@ -206,7 +206,7 @@ QDarkStyle==2.8
 QtAwesome==0.6.1
 qtconsole==4.6.0
 QtPy==1.9.0
-requests==2.22.0
+requests==2.25.0
 requests-kerberos==0.12.0
 retrying==1.3.3
 rope==0.16.0
@@ -215,11 +215,8 @@ Rtree==0.9.3
 ruamel-yaml==0.15.87
 s3fs==0.4.2
 s3transfer==0.3.3
-sagemaker==2.16.4.dev0
+sagemaker==2.19.0
 sagemaker-pyspark==1.4.1
-sagemaker-pytorch-training==2.3.1.dev0
-sagemaker-tensorflow-training==10.1.8.dev0
-sagemaker-training==3.6.3.post0
 scikit-image==0.16.2
 scikit-learn==0.22.1
 scipy==1.4.1
@@ -228,14 +225,15 @@ SecretStorage==3.1.2
 Send2Trash==1.5.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
-six==1.14.0
+six==1.15.0
 sklearn==0.0
-smdebug-rulesconfig==0.1.6
+smclarify @ file:///tmp/smclarify-0.1-py3-none-any.whl
+smdebug-rulesconfig==1.0.0
 snowballstemmer==2.0.0
 sortedcollections==1.1.2
 sortedcontainers==2.1.0
 soupsieve==1.9.5
-spacy==2.3.2
+spacy @ file:///home/conda/feedstock_root/build_artifacts/spacy_1606374754456/work
 sparkmagic==0.15.0
 Sphinx==2.4.0
 sphinxcontrib-applehelp==1.0.1
@@ -248,16 +246,17 @@ sphinxcontrib-websupport==1.2.0
 spyder==4.0.1
 spyder-kernels==1.8.1
 SQLAlchemy==1.3.13
-srsly==1.0.2
+srsly @ file:///home/conda/feedstock_root/build_artifacts/srsly_1605085677087/work
 statsmodels==0.11.0
 sympy==1.5.1
 tables==3.6.1
+tabulate==0.8.7
 tblib==1.6.0
 terminado==0.8.3
 testpath==0.4.4
 texttable==1.6.3
-thinc==7.4.1
-toml==0.10.1
+thinc @ file:///home/conda/feedstock_root/build_artifacts/thinc_1606141556591/work
+toml==0.10.2
 toolz==0.10.0
 torch==1.4.0
 torchvision==0.5.0
@@ -269,8 +268,8 @@ typing==3.7.4.3
 typing-extensions==3.7.4.3
 ujson==1.35
 unicodecsv==0.14.1
-urllib3==1.25.10
-wasabi==0.8.0
+urllib3==1.25.11
+wasabi @ file:///home/conda/feedstock_root/build_artifacts/wasabi_1600272362626/work
 watchdog==0.10.2
 wcwidth==0.1.8
 webencodings==0.5.1
@@ -284,4 +283,4 @@ XlsxWriter==1.2.7
 xlwt==1.3.0
 yapf==0.28.0
 zict==1.0.0
-zipp==2.2.0
+zipp==3.4.0
