@@ -357,7 +357,7 @@ dependencies:
     - tabulate==0.8.7
     - texttable==1.6.3
     - toml==0.10.2
-    - urllib3==1.25.11
+    - urllib3==1.25.10
     - websocket-client==0.57.0
     - zipp==3.4.0
 prefix: /home/ec2-user/anaconda3/envs/python3

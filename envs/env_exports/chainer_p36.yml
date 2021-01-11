@@ -339,7 +339,7 @@ dependencies:
     - paramiko==2.7.2
     - pip==20.3
     - plotly==4.13.0
-    - protobuf==3.14.0
+    - protobuf==3.7.1
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
