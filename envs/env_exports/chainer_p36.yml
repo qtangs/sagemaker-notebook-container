@@ -339,7 +339,7 @@ dependencies:
     - paramiko==2.7.2
     - pip==20.3
     - plotly==4.13.0
-    - protobuf==3.7.1
+    - protobuf==3.14.0
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
@@ -374,7 +374,7 @@ dependencies:
     - toml==0.10.2
     - typing==3.6.6
     - typing-extensions==3.6.6
-    - urllib3==1.25.11
+    - urllib3==1.25.10
     - websocket-client==0.57.0
     - zipp==3.4.0
 prefix: /home/ec2-user/anaconda3/envs/chainer_p36
