@@ -378,7 +378,7 @@ dependencies:
     - toml==0.10.2
     - typing==3.7.4.3
     - typing-extensions==3.7.4.3
-    - urllib3==1.25.11
+    - urllib3==1.25.10
     - websocket-client==0.57.0
     - zipp==3.4.0
 prefix: /home/ec2-user/anaconda3/envs/mxnet_p36
