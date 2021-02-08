@@ -27,7 +27,7 @@ dependencies:
   - boto=2.49.0=py27_0
   - bottleneck=1.2.1=py27h035aef0_1
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2020.11.8=ha878542_0
+  - ca-certificates=2020.12.5=ha878542_0
   - cairo=1.14.12=h8948797_3
   - cdecimal=2.3=py27h14c3975_3
   - certifi=2019.11.28=py27h8c360ce_1
@@ -39,7 +39,6 @@ dependencies:
   - colorama=0.4.1=py27_0
   - configparser=4.0.2=py27_0
   - contextlib2=0.6.0=py_0
-  - cryptography=2.7=py27h1ba5d50_0
   - curl=7.65.3=hbc83047_0
   - cycler=0.10.0=py27_0
   - cython=0.29.13=py27he6710b0_0
@@ -284,29 +283,30 @@ dependencies:
     - argparse==1.4.0
     - automat==20.2.0
     - autovizwidget==0.17.1
-    - awscli==1.18.197
+    - awscli==1.18.223
     - bcrypt==3.1.7
     - bleach==3.2.1
-    - boto3==1.16.37
-    - botocore==1.19.37
+    - boto3==1.16.63
+    - botocore==1.19.63
     - cached-property==1.5.2
+    - cryptography==3.3.1
     - distro==1.5.0
-    - docker==4.4.0
+    - docker==4.4.1
     - docker-compose==1.26.2
     - dockerpty==0.4.1
     - docopt==0.6.2
     - environment-kernels==1.1.1
     - hdijupyterutils==0.17.1
-    - importlib-metadata==2.1.0
+    - importlib-metadata==2.1.1
     - ipython==5.9.0
     - lxml==4.6.2
     - matplotlib==2.2.5
     - opencv-python==4.2.0.32
-    - packaging==20.7
+    - packaging==20.8
     - paramiko==2.7.2
     - pillow==6.2.2
-    - pip==20.3
-    - plotly==4.13.0
+    - pip==20.3.3
+    - plotly==4.14.3
     - protobuf3-to-dict==0.1.5
     - psutil==5.6.7
     - psycopg2==2.7.5

@@ -29,11 +29,10 @@ dependencies:
   - boto=2.49.0=py36_0
   - bottleneck=1.3.2=py36heb32a55_0
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2020.11.8=ha878542_0
+  - ca-certificates=2020.12.5=ha878542_0
   - cairo=1.14.12=h8948797_3
-  - catalogue=1.0.0=py36h5fab9bb_2
+  - catalogue=1.0.0=py36h5fab9bb_3
   - cffi=1.14.0=py36h2e261b9_0
-  - chardet=3.0.4=py36_1003
   - click=7.0=py36_0
   - cloudpickle=1.3.0=py_0
   - clyent=1.2.2=py36_1
@@ -92,7 +91,7 @@ dependencies:
   - icu=58.2=h9c2bf20_1
   - imageio=2.6.1=py36_0
   - imagesize=1.2.0=py_0
-  - importlib-metadata=3.1.0=pyhd8ed1ab_0
+  - importlib-metadata=3.4.0=py36h5fab9bb_0
   - importlib_metadata=1.5.0=py36_0
   - intel-openmp=2020.0=166
   - intervaltree=3.0.2=py_0
@@ -304,6 +303,7 @@ dependencies:
   - tqdm=4.42.1=py_0
   - traitlets=4.3.3=py36_0
   - typed-ast=1.4.1=py36h7b6447c_0
+  - typing_extensions=3.7.4.3=py_0
   - ujson=1.35=py36h14c3975_0
   - unicodecsv=0.14.1=py36_0
   - unixodbc=2.3.7=h14c3975_0
@@ -331,17 +331,18 @@ dependencies:
     - astroid==2.4.2
     - attrs==20.3.0
     - autovizwidget==0.17.1
-    - awscli==1.18.197
+    - awscli==1.18.223
     - bcrypt==3.2.0
     - bleach==3.2.1
-    - boto3==1.16.37
-    - botocore==1.19.37
+    - boto3==1.16.63
+    - botocore==1.19.63
     - cached-property==1.5.2
-    - certifi==2020.11.8
+    - certifi==2020.12.5
+    - chardet==4.0.0
     - dill==0.3.3
     - distro==1.5.0
-    - docker==4.4.0
-    - docker-compose==1.27.4
+    - docker==4.4.1
+    - docker-compose==1.28.2
     - dockerpty==0.4.1
     - docopt==0.6.2
     - docutils==0.15.2
@@ -349,20 +350,20 @@ dependencies:
     - google-pasta==0.2.0
     - hdijupyterutils==0.17.1
     - idna==2.10
-    - numpy==1.19.4
+    - numpy==1.19.5
     - onnx==1.5.0
     - opencv-python==4.2.0.32
-    - packaging==20.7
+    - packaging==20.8
     - paramiko==2.7.2
-    - pip==20.3
-    - plotly==4.13.0
+    - pip==20.3.3
+    - plotly==4.14.3
     - protobuf==3.14.0
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
     - pyarrow==2.0.0
     - pyasn1==0.4.8
-    - pyfunctional==1.4.2
+    - pyfunctional==1.4.3
     - pygal==2.4.0
     - pykerberos==1.2.1
     - pylint==2.6.0
@@ -371,24 +372,23 @@ dependencies:
     - pyspark==2.3.4
     - python-dotenv==0.15.0
     - pyyaml==5.3.1
-    - requests==2.25.0
+    - requests==2.25.1
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==4.5
-    - s3transfer==0.3.3
-    - sagemaker==2.19.0
+    - s3transfer==0.3.4
+    - sagemaker==2.24.1
     - sagemaker-pyspark==1.4.1
     - six==1.15.0
     - sklearn==0.0
     - smclarify==0.1
-    - smdebug-rulesconfig==1.0.0
+    - smdebug-rulesconfig==1.0.1
     - sparkmagic==0.15.0
     - tabulate==0.8.7
     - texttable==1.6.3
     - toml==0.10.2
     - typing==3.7.4.3
-    - typing-extensions==3.7.4.3
-    - urllib3==1.25.10
+    - urllib3==1.26.2
     - websocket-client==0.57.0
     - zipp==3.4.0
 prefix: /home/ec2-user/anaconda3/envs/pytorch_p36
