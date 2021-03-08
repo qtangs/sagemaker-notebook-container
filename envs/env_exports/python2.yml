@@ -96,7 +96,6 @@ dependencies:
   - jbig=2.1=hdba287a_0
   - jdcal=1.4.1=py_0
   - jedi=0.15.1=py27_0
-  - jinja2=2.10.3=py_0
   - jmespath=0.10.0=py_0
   - jpeg=9b=h024ee3a_2
   - jsonschema=3.0.2=py27_0
@@ -282,30 +281,31 @@ dependencies:
   - pip:
     - argparse==1.4.0
     - automat==20.2.0
-    - autovizwidget==0.17.1
-    - awscli==1.18.223
+    - autovizwidget==0.18.0
+    - awscli==1.19.16
     - bcrypt==3.1.7
     - bleach==3.2.1
-    - boto3==1.16.63
-    - botocore==1.19.63
+    - boto3==1.17.16
+    - botocore==1.20.16
     - cached-property==1.5.2
     - cryptography==3.3.1
     - distro==1.5.0
-    - docker==4.4.1
+    - docker==4.4.4
     - docker-compose==1.26.2
     - dockerpty==0.4.1
     - docopt==0.6.2
     - environment-kernels==1.1.1
-    - hdijupyterutils==0.17.1
+    - hdijupyterutils==0.18.0
     - importlib-metadata==2.1.1
     - ipython==5.9.0
+    - jinja2==2.11.3
     - lxml==4.6.2
     - matplotlib==2.2.5
     - opencv-python==4.2.0.32
-    - packaging==20.8
+    - packaging==20.9
     - paramiko==2.7.2
     - pillow==6.2.2
-    - pip==20.3.3
+    - pip==20.3.4
     - plotly==4.14.3
     - protobuf3-to-dict==0.1.5
     - psutil==5.6.7
