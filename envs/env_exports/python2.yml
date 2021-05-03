@@ -184,7 +184,6 @@ dependencies:
   - prompt_toolkit=1.0.15=py27_0
   - protobuf=3.11.2=py27he1b5a44_0
   - ptyprocess=0.6.0=py27_0
-  - py=1.8.0=py27_0
   - py-lief=0.9.0=py27h7725739_2
   - pycairo=1.18.1=py27h2a1e443_0
   - pycodestyle=2.5.0=py27_0
@@ -215,12 +214,10 @@ dependencies:
   - qtconsole=4.5.5=py_0
   - qtpy=1.9.0=py_0
   - readline=7.0=h7b6447c_5
-  - requests=2.22.0=py27_0
   - ripgrep=0.10.0=hc07d326_0
   - rope=0.14.0=py_0
   - ruamel_yaml=0.15.46=py27h14c3975_0
   - s3fs=0.2.1=py_0
-  - s3transfer=0.3.0=py27_0
   - scandir=1.10.0=py27h7b6447c_0
   - scikit-image=0.14.2=py27he6710b0_0
   - scipy=1.2.1=py27h7c811a0_0
@@ -282,11 +279,11 @@ dependencies:
     - argparse==1.4.0
     - automat==20.2.0
     - autovizwidget==0.18.0
-    - awscli==1.19.35
+    - awscli==1.19.55
     - bcrypt==3.1.7
     - bleach==3.3.0
-    - boto3==1.17.35
-    - botocore==1.20.35
+    - boto3==1.17.55
+    - botocore==1.20.55
     - cached-property==1.5.2
     - cryptography==3.3.2
     - distro==1.5.0
@@ -294,12 +291,14 @@ dependencies:
     - docker-compose==1.26.2
     - dockerpty==0.4.1
     - docopt==0.6.2
+    - ecdsa==0.16.1
     - environment-kernels==1.1.1
+    - flask-cors==3.0.10
     - hdijupyterutils==0.18.0
     - importlib-metadata==2.1.1
     - ipython==5.9.0
     - jinja2==2.11.3
-    - lxml==4.6.2
+    - lxml==4.6.3
     - matplotlib==2.2.5
     - opencv-python==4.2.0.32
     - packaging==20.9
@@ -308,25 +307,28 @@ dependencies:
     - pip==20.3.4
     - plotly==4.14.3
     - protobuf3-to-dict==0.1.5
-    - psutil==5.6.7
+    - psutil==5.8.0
     - psycopg2==2.7.5
+    - py==1.10.0
     - py4j==0.10.7
     - pyasn1==0.4.8
     - pygal==2.4.0
     - pykerberos==1.2.1
     - pynacl==1.4.0
     - pyspark==2.3.4
-    - python-dotenv==0.15.0
+    - python-dotenv==0.17.0
     - pyyaml==5.4.1
+    - requests==2.25.1
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==4.5
+    - s3transfer==0.4.1
     - sagemaker==1.72.1
     - sagemaker-pyspark==1.4.1
     - scikit-learn==0.20.4
     - smdebug-rulesconfig==0.1.4
     - sparkmagic==0.15.0
     - texttable==1.6.3
-    - urllib3==1.25.10
+    - urllib3==1.25.11
     - websocket-client==0.58.0
 prefix: /home/ec2-user/anaconda3/envs/python2
