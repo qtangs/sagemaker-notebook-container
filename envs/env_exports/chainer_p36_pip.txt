@@ -2,7 +2,7 @@ aiobotocore @ file:///home/conda/feedstock_root/build_artifacts/aiobotocore_1613
 aiohttp==3.7.4.post0
 aioitertools @ file:///home/conda/feedstock_root/build_artifacts/aioitertools_1605140085294/work
 alabaster==0.7.12
-alembic==1.5.8
+alembic==1.6.1
 anaconda-client==1.7.2
 anaconda-project @ file:///home/conda/feedstock_root/build_artifacts/anaconda-project_1610202457240/work
 anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1612745527973/work/dist
@@ -10,7 +10,7 @@ appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_160310839579
 argh @ file:///home/conda/feedstock_root/build_artifacts/argh_1595627874344/work
 argon2-cffi @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi_1610522576431/work
 asn1crypto @ file:///home/conda/feedstock_root/build_artifacts/asn1crypto_1595949944546/work
-astroid==2.5.1
+astroid==2.5.6
 astropy @ file:///home/conda/feedstock_root/build_artifacts/astropy_1605117471715/work
 async-generator==1.10
 async-timeout==3.0.1
@@ -18,7 +18,7 @@ atomicwrites @ file:///home/conda/feedstock_root/build_artifacts/atomicwrites_15
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
 autopep8 @ file:///home/conda/feedstock_root/build_artifacts/autopep8_1612428300666/work
 autovizwidget==0.18.0
-awscli==1.19.55
+awscli==1.19.68
 Babel @ file:///home/conda/feedstock_root/build_artifacts/babel_1605182336601/work
 backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
 backports.functools-lru-cache==1.6.1
@@ -32,8 +32,8 @@ blaze==0.11.3
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
 bokeh @ file:///home/conda/feedstock_root/build_artifacts/bokeh_1606141192963/work
 boto==2.49.0
-boto3==1.17.55
-botocore==1.20.55
+boto3==1.17.68
+botocore==1.20.68
 Bottleneck @ file:///home/conda/feedstock_root/build_artifacts/bottleneck_1611195608200/work
 brotlipy==0.7.0
 cached-property==1.5.1
@@ -164,7 +164,7 @@ numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1610324545699/wo
 numpydoc @ file:///home/conda/feedstock_root/build_artifacts/numpydoc_1601580905698/work
 odo==0.5.1
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
-onnx==1.8.1
+onnx==1.9.0
 onnx-chainer==1.2.2a3
 openpyxl @ file:///home/conda/feedstock_root/build_artifacts/openpyxl_1610671411818/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
@@ -197,7 +197,7 @@ psycopg2==2.7.5
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///home/conda/feedstock_root/build_artifacts/py_1607783655754/work
 py4j==0.10.7
-pyarrow==3.0.0
+pyarrow==4.0.0
 pyasn1==0.4.8
 pycodestyle @ file:///home/conda/feedstock_root/build_artifacts/pycodestyle_1589305246696/work
 pycosat @ file:///home/conda/feedstock_root/build_artifacts/pycosat_1610094796351/work
@@ -211,7 +211,7 @@ pygal==2.4.0
 pyglet==1.5.0
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1613412098605/work
 pykerberos==1.2.1
-pylint==2.7.2
+pylint==2.8.2
 pyls-black @ file:///home/conda/feedstock_root/build_artifacts/pyls-black_1595615126037/work
 pyls-spyder @ file:///home/conda/feedstock_root/build_artifacts/pyls-spyder_1613487177406/work
 PyNaCl==1.4.0
@@ -224,10 +224,10 @@ PyQtChart==5.12
 PyQtWebEngine==5.12.1
 pyrsistent @ file:///home/conda/feedstock_root/build_artifacts/pyrsistent_1610146795286/work
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1610291458349/work
-pyspark==2.3.4
+pyspark==2.4.0
 pytest==6.2.2
 python-dateutil==2.8.1
-python-dotenv==0.17.0
+python-dotenv==0.17.1
 python-editor==1.0.4
 python-jsonrpc-server @ file:///home/conda/feedstock_root/build_artifacts/python-jsonrpc-server_1599827444631/work
 python-language-server @ file:///home/conda/feedstock_root/build_artifacts/python-language-server_1607720213724/work
@@ -249,9 +249,9 @@ rsa==4.7.2
 Rtree @ file:///home/conda/feedstock_root/build_artifacts/rtree_1610147153210/work
 ruamel-yaml-conda @ file:///home/conda/feedstock_root/build_artifacts/ruamel_yaml_1611943345403/work
 s3fs==0.4.2
-s3transfer==0.4.1
-sagemaker==2.38.0
-sagemaker-pyspark==1.4.1
+s3transfer==0.4.2
+sagemaker==2.39.1
+sagemaker-pyspark==1.4.2
 scikit-image==0.16.2
 scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1611079733572/work
 scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1604304777848/work
@@ -306,7 +306,7 @@ urllib3==1.26.4
 watchdog @ file:///home/conda/feedstock_root/build_artifacts/watchdog_1614010753193/work
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
 webencodings==0.5.1
-websocket-client==0.58.0
+websocket-client==0.59.0
 Werkzeug==1.0.1
 widgetsnbextension @ file:///home/conda/feedstock_root/build_artifacts/widgetsnbextension_1605475531705/work
 wrapt @ file:///home/conda/feedstock_root/build_artifacts/wrapt_1610094846427/work
