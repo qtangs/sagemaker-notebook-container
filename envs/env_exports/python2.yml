@@ -279,11 +279,11 @@ dependencies:
     - argparse==1.4.0
     - automat==20.2.0
     - autovizwidget==0.18.0
-    - awscli==1.19.68
+    - awscli==1.19.79
     - bcrypt==3.1.7
     - bleach==3.3.0
-    - boto3==1.17.68
-    - botocore==1.20.68
+    - boto3==1.17.79
+    - botocore==1.20.79
     - cached-property==1.5.2
     - cryptography==3.3.2
     - distro==1.5.0

@@ -389,16 +389,16 @@ dependencies:
     - astroid==2.5.6
     - automat==20.2.0
     - autovizwidget==0.18.0
-    - awscli==1.19.68
+    - awscli==1.19.79
     - bcrypt==3.2.0
-    - boto3==1.17.68
-    - botocore==1.20.68
+    - boto3==1.17.79
+    - botocore==1.20.79
     - colorama==0.4.3
     - dataclasses==0.8
     - dill==0.3.3
     - distro==1.5.0
     - docker==5.0.0
-    - docker-compose==1.29.1
+    - docker-compose==1.29.2
     - dockerpty==0.4.1
     - docopt==0.6.2
     - docutils==0.15.2
@@ -439,7 +439,7 @@ dependencies:
     - rsa==4.7.2
     - s3fs==0.4.2
     - s3transfer==0.4.2
-    - sagemaker==2.39.1
+    - sagemaker==2.42.0
     - sagemaker-pyspark==1.4.2
     - sklearn==0.0
     - smclarify==0.1
