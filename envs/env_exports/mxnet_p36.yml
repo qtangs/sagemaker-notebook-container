@@ -6,7 +6,6 @@ dependencies:
   - _anaconda_depends=5.1.0=py36_2
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
-  - aiobotocore=1.2.1=pyhd8ed1ab_0
   - aioitertools=0.7.1=pyhd8ed1ab_0
   - alabaster=0.7.12=py_0
   - anaconda-client=1.7.2=py_0
@@ -43,10 +42,10 @@ dependencies:
   - brotlipy=0.7.0=py36h8f6f2f9_1001
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.17.1=h36c2ea0_0
-  - ca-certificates=2020.12.5=ha878542_0
+  - ca-certificates=2021.5.30=ha878542_0
   - cached-property=1.5.1=py_0
   - cairo=1.16.0=h7979940_1007
-  - certifi=2020.12.5=py36h5fab9bb_1
+  - certifi=2021.5.30=py36h5fab9bb_0
   - cffi=1.14.5=py36hc120d54_0
   - chardet=3.0.4=py36h9880bd3_1008
   - click=7.1.2=pyh9f0ad1d_0
@@ -83,7 +82,6 @@ dependencies:
   - fonts-conda-forge=1=0
   - freetype=2.10.4=h0708190_1
   - fribidi=1.0.10=h36c2ea0_0
-  - fsspec=0.8.7=pyhd8ed1ab_0
   - future=0.18.2=py36h5fab9bb_3
   - gcc_impl_linux-64=9.3.0=h70c0ae5_18
   - gcc_linux-64=9.3.0=hf25ea35_30
@@ -260,8 +258,6 @@ dependencies:
   - pep8=1.7.1=py_0
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
-  - pillow=8.1.0=py36ha6010c0_2
-  - pip=21.0.1=pyhd8ed1ab_0
   - pixman=0.40.0=h36c2ea0_0
   - pkginfo=1.7.0=pyhd8ed1ab_0
   - pluggy=0.13.1=py36h5fab9bb_4
@@ -398,15 +394,16 @@ dependencies:
   - zope.interface=5.2.0=py36h8f6f2f9_1
   - zstd=1.4.8=ha95c52a_1
   - pip:
+    - aiobotocore==1.3.0
     - aiohttp==3.7.4.post0
     - argparse==1.4.0
     - astroid==2.5.6
-    - autovizwidget==0.18.0
+    - autovizwidget==0.19.0
     - aws-mxnet-mkl==1.6.0
-    - awscli==1.19.76
+    - awscli==1.19.99
     - bcrypt==3.2.0
-    - boto3==1.17.76
-    - botocore==1.20.76
+    - boto3==1.17.99
+    - botocore==1.20.99
     - colorama==0.4.3
     - dataclasses==0.8
     - dill==0.3.3
@@ -419,8 +416,9 @@ dependencies:
     - enum-compat==0.0.3
     - environment-kernels==1.1.1
     - flask-cors==3.0.10
+    - fsspec==2021.4.0
     - google-pasta==0.2.0
-    - hdijupyterutils==0.18.0
+    - hdijupyterutils==0.19.0
     - horovod==0.19.5
     - idna==2.10
     - jupyter-console==6.4.0
@@ -437,30 +435,32 @@ dependencies:
     - opencv-python==4.5.1.48
     - paramiko==2.7.2
     - pathos==0.2.7
+    - pillow==8.2.0
+    - pip==21.1.2
     - plotly==4.14.3
     - pox==0.2.9
     - ppft==1.6.6.3
     - protobuf3-to-dict==0.1.5
     - psycopg2==2.7.5
     - py4j==0.10.7
-    - pyarrow==4.0.0
+    - pyarrow==4.0.1
     - pyasn1==0.4.8
     - pyfunctional==1.4.3
     - pygal==2.4.0
     - pykerberos==1.2.1
-    - pylint==2.8.2
+    - pylint==2.8.3
     - pynacl==1.4.0
     - pyspark==2.4.0
-    - python-dotenv==0.17.1
+    - python-dotenv==0.18.0
     - python-graphviz==0.8.4
     - pyyaml==5.4.1
     - requests==2.25.1
     - requests-kerberos==0.12.0
     - retrying==1.3.3
     - rsa==4.7.2
-    - s3fs==0.4.2
+    - s3fs==2021.4.0
     - s3transfer==0.4.2
-    - sagemaker==2.41.0
+    - sagemaker==2.45.0
     - sagemaker-pyspark==1.4.2
     - sklearn==0.0
     - smclarify==0.1
@@ -469,6 +469,6 @@ dependencies:
     - tabulate==0.8.9
     - texttable==1.6.3
     - typing==3.7.4.3
-    - urllib3==1.26.4
+    - urllib3==1.26.5
     - websocket-client==0.59.0
 prefix: /home/ec2-user/anaconda3/envs/mxnet_p36
