@@ -18,7 +18,7 @@ atomicwrites @ file:///home/conda/feedstock_root/build_artifacts/atomicwrites_15
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
 autopep8 @ file:///home/conda/feedstock_root/build_artifacts/autopep8_1612428300666/work
 autovizwidget==0.19.0
-awscli==1.19.99
+awscli==1.19.100
 Babel @ file:///home/conda/feedstock_root/build_artifacts/babel_1605182336601/work
 backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
 backports.functools-lru-cache==1.6.1
@@ -32,8 +32,8 @@ blaze==0.11.3
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
 bokeh @ file:///home/conda/feedstock_root/build_artifacts/bokeh_1606141192963/work
 boto==2.49.0
-boto3==1.17.99
-botocore==1.20.99
+boto3==1.17.100
+botocore==1.20.100
 Bottleneck @ file:///home/conda/feedstock_root/build_artifacts/bottleneck_1611195608200/work
 brotlipy==0.7.0
 cached-property==1.5.1
