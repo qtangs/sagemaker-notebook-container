@@ -276,11 +276,11 @@ dependencies:
     - alembic==1.6.5
     - argparse==1.4.0
     - autovizwidget==0.19.0
-    - awscli==1.19.100
+    - awscli==1.19.112
     - bcrypt==3.1.7
     - bleach==3.3.0
-    - boto3==1.17.100
-    - botocore==1.20.100
+    - boto3==1.17.112
+    - botocore==1.20.112
     - cached-property==1.5.2
     - chainer==6.1.0
     - chainercv==0.13.1
@@ -288,7 +288,7 @@ dependencies:
     - chainerui==0.9.0
     - cryptography==3.3.2
     - cupy==6.3.0
-    - distro==1.5.0
+    - distro==1.6.0
     - docker==4.4.4
     - docker-compose==1.26.2
     - dockerpty==0.4.1
@@ -343,7 +343,7 @@ dependencies:
     - sparkmagic==0.15.0
     - statistics==1.0.3.5
     - structlog==20.1.0
-    - texttable==1.6.3
+    - texttable==1.6.4
     - typing==3.6.6
     - typing-extensions==3.6.6
     - urllib3==1.25.11

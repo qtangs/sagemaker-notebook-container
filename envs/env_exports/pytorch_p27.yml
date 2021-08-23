@@ -20,8 +20,8 @@ dependencies:
   - backports.shutil_get_terminal_size=1.0.0=py27_2
   - backports_abc=0.5=py27_0
   - beautifulsoup4=4.8.0=py27_0
-  - binutils_impl_linux-64=2.31.1=h6176602_1
-  - binutils_linux-64=2.31.1=h6176602_9
+  - binutils_impl_linux-64=2.36.1=h193b22a_1
+  - binutils_linux-64=2.36=hf3e587d_31
   - bitarray=1.0.1=py27h7b6447c_0
   - bkcharts=0.2=py27_0
   - blas=1.0=mkl
@@ -68,8 +68,8 @@ dependencies:
   - functools32=3.2.3.2=py27_1
   - future=0.17.1=py27_0
   - futures=3.3.0=py27_0
-  - gcc_impl_linux-64=7.3.0=habb00fd_1
-  - gcc_linux-64=7.3.0=h553295d_9
+  - gcc_impl_linux-64=7.5.0=hda68d29_13
+  - gcc_linux-64=7.5.0=h47867f9_31
   - get_terminal_size=1.0.0=haa9412d_0
   - gevent=1.4.0=py27h7b6447c_0
   - glib=2.56.2=hd408876_0
@@ -82,8 +82,8 @@ dependencies:
   - grin=1.2.1=py27_4
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.0=hb453b48_1
-  - gxx_impl_linux-64=7.3.0=hdf63c60_1
-  - gxx_linux-64=7.3.0=h553295d_9
+  - gxx_impl_linux-64=7.5.0=h64c220c_13
+  - gxx_linux-64=7.5.0=h555fc39_31
   - h5py=2.9.0=py27h7918eee_0
   - harfbuzz=1.8.8=hffaf4a1_0
   - hdf5=1.10.4=hb1b8bf9_0
@@ -113,15 +113,18 @@ dependencies:
   - jupyter_core=4.5.0=py_0
   - jupyterlab=0.33.11=py27_0
   - jupyterlab_launcher=0.11.2=py27h28b3542_0
+  - kernel-headers_linux-64=2.6.32=h77966d4_13
   - kiwisolver=1.1.0=py27he6710b0_0
   - krb5=1.16.4=h173b8e3_0
   - lazy-object-proxy=1.4.2=py27h7b6447c_0
+  - ld_impl_linux-64=2.36.1=hea4e1c9_1
   - libarchive=3.3.3=h5d8350f_5
   - libcurl=7.65.3=h20c2e04_0
   - libedit=3.1.20181209=hc058e9b_0
   - libffi=3.2.1=hd88cf55_4
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.3.0=hdf63c60_0
+  - libgomp=9.3.0=h5101ec6_17
   - liblief=0.9.0=h7725739_2
   - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.11.2=h8b12597_0
@@ -169,9 +172,9 @@ dependencies:
   - numpy-base=1.16.5=py27hde5b4d6_0
   - numpydoc=0.9.1=py_0
   - olefile=0.46=py27_0
-  - openmpi=4.0.2=hb1b8bf9_1
-  - openmpi-mpicc=4.0.2=h7b6447c_1
-  - openmpi-mpicxx=4.0.2=hfd86e86_1
+  - openmpi=4.0.5=hdf1f1ad_1
+  - openmpi-mpicc=4.0.5=h516909a_1
+  - openmpi-mpicxx=4.0.5=hc9558a2_1
   - openpyxl=2.6.3=py_0
   - openssl=1.1.1h=h516909a_0
   - pandas=0.24.2=py27he6710b0_0
@@ -257,6 +260,7 @@ dependencies:
   - statsmodels=0.10.1=py27hdd07704_0
   - subprocess32=3.5.4=py27h7b6447c_0
   - sympy=1.4=py27_0
+  - sysroot_linux-64=2.12=h77966d4_13
   - tbb=2019.4=hfd86e86_0
   - tblib=1.4.0=py_0
   - terminado=0.8.2=py27_0
@@ -292,14 +296,14 @@ dependencies:
   - pip:
     - argparse==1.4.0
     - autovizwidget==0.19.0
-    - awscli==1.19.100
+    - awscli==1.19.112
     - bcrypt==3.1.7
     - bleach==3.3.0
-    - boto3==1.17.100
-    - botocore==1.20.100
+    - boto3==1.17.112
+    - botocore==1.20.112
     - cached-property==1.5.2
     - cryptography==3.3.2
-    - distro==1.5.0
+    - distro==1.6.0
     - docker==4.4.4
     - docker-compose==1.26.2
     - dockerpty==0.4.1
@@ -342,7 +346,7 @@ dependencies:
     - scikit-learn==0.20.4
     - smdebug-rulesconfig==0.1.4
     - sparkmagic==0.15.0
-    - texttable==1.6.3
+    - texttable==1.6.4
     - typing-extensions==3.10.0.0
     - urllib3==1.25.11
     - websocket-client==0.59.0
