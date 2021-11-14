@@ -115,7 +115,7 @@ services:
     volumes:
       - ~/.aws:/home/ec2-user/.aws:ro                    # For AWS Credentials
 ```
-*(For Windows, replace `~` with `%USERPROFILE%`)*
+*(For Windows, replace `~` with `${USERPROFILE}`)*
 
 *(Replace `default-api` with the appropriate profile name from your own `~/.aws/credentials`)*
 
@@ -171,7 +171,7 @@ If you use connect to Git repository using SSH, then you need to mount the `.ssh
 -v ~/.ssh:/home/ec2-user/.ssh:ro
 ```
 
-*(For Windows, replace `~` with `%USERPROFILE%`)*
+*(For Windows, replace `~` with `${USERPROFILE}`)*
 
 #### Shared `SageMaker` directory
 To save all work created in the container, mount a directory to act as the `SageMaker` directory under `/home/ec2-user`:
